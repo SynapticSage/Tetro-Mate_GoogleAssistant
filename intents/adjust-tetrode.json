@@ -1,0 +1,110 @@
+{
+  "id": "3c7c70f8-19d6-4b7c-8e73-5bee2eceda2c",
+  "name": "adjust-tetrode",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5768dee9-f3d0-48d2-8565-5b7cc382d8a9",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "tetrode",
+          "value": "$tetrode",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Tetrode?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "b9faf7e3-e110-42d1-94a7-c43eb4c49150",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "intent",
+          "value": "adjust-tetrode",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "adjust-tetrode",
+          "isList": false
+        },
+        {
+          "id": "d992ec57-0dd1-4c9d-8aa8-9d66bab1ac47",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "turns",
+          "value": "$turns",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Turns?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "3a67d505-d274-40aa-bcdc-5b1f74d2de65",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "direction",
+          "value": "$direction",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which way?"
+            },
+            {
+              "lang": "en",
+              "value": "Direction?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "down",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "K, turning $turns $direction on $tetrode",
+            "K, $direction $turns for $tetrode",
+            "direction \u003d $direction, tetrode \u003d $tetrode, turns \u003d $turns"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

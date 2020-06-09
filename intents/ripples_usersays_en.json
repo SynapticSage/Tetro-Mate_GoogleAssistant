@@ -1,0 +1,212 @@
+[
+  {
+    "id": "73873995-8531-44dd-8c72-a24ff4f4b217",
+    "data": [
+      {
+        "text": "ripples ",
+        "userDefined": false
+      },
+      {
+        "text": "--",
+        "alias": "modification",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3f1c27ed-1659-42cd-9151-d7b73c09508a",
+    "data": [
+      {
+        "text": "ripples ",
+        "userDefined": false
+      },
+      {
+        "text": "++",
+        "alias": "modification",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "76349903-ec94-4d5f-9b69-8171eb37e5f0",
+    "data": [
+      {
+        "text": "ripples \u003d ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "64e81aca-3752-4f27-ab53-03992e030967",
+    "data": [
+      {
+        "text": "ripples ",
+        "userDefined": false
+      },
+      {
+        "text": "-7",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b76bd88e-7ceb-449e-b5d3-86dd9739a0e0",
+    "data": [
+      {
+        "text": "ripples ",
+        "userDefined": false
+      },
+      {
+        "text": "-3",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6bfbeba2-9b07-4852-b65d-fb9d6cb7355f",
+    "data": [
+      {
+        "text": "Ripples are ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cdb9e3b4-9ba5-4ed6-b560-25a68a41027c",
+    "data": [
+      {
+        "text": "Ripples ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0cb56844-e4f1-4b1d-bd61-81ecd9379b0f",
+    "data": [
+      {
+        "text": "Ripples ",
+        "userDefined": false
+      },
+      {
+        "text": "-1",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "2d108b99-4923-4412-90d2-f3eab9419e28",
+    "data": [
+      {
+        "text": "Ripples ",
+        "userDefined": false
+      },
+      {
+        "text": "0",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "529c0ab9-d4e2-4548-83b2-6255fcb8a638",
+    "data": [
+      {
+        "text": "Ripples \u003d ",
+        "userDefined": false
+      },
+      {
+        "text": "-1",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ab8f59f4-c3fb-42e9-a040-c0ce9c6a70ce",
+    "data": [
+      {
+        "text": "Ripples \u003d ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5e4c074a-38a5-48ad-92c7-a91d5d018a93",
+    "data": [
+      {
+        "text": "Ripples",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

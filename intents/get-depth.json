@@ -1,0 +1,70 @@
+{
+  "id": "4a2a4775-0ac4-4046-bd2b-d1bd5ed1e63b",
+  "name": "get-depth",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f346a551-8c5c-481f-b282-f6f3caa0d6de",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "intent",
+          "value": "get-depth",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "841826a0-7944-4a46-9f97-03ff8992a85b",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "name": "tetrode",
+          "value": "$tetrode",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "-1",
+          "isList": false
+        },
+        {
+          "id": "4a7f8f2c-2f80-40be-9ba9-30b65d019613",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "depth_type",
+          "value": "$depth_type",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "new",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Error, response not returned."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

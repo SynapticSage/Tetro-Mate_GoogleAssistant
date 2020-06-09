@@ -1,0 +1,44 @@
+{
+  "id": "b0d7089d-cce9-4cff-aae8-bcf6ad242fb0",
+  "name": "pretty2raw",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b4e848ae-cda0-4467-9513-9a8af6d4a7ca",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "intent",
+          "value": "pretty2raw",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Generating raw from pretty and backing up raw."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

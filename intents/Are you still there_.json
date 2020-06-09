@@ -1,0 +1,47 @@
+{
+  "id": "4cc523b7-0b7a-4715-9c1a-966df7e7371a",
+  "name": "Are you still there?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "90c69b53-f438-4838-b315-292f61eff21f",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "intent",
+          "value": "test",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Yes! Experimate reporting for duty.",
+            "Yes, Experimate hears you, loud and clear."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

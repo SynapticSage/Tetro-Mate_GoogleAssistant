@@ -1,0 +1,63 @@
+{
+  "id": "5889b2a7-9dd1-467d-98ec-4c1818e2c039",
+  "name": "cells",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "18df5cd8-89fb-40ba-8e63-87d304340ced",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "magnitude",
+          "value": "$magnitude",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Rough cell estimate?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d123464b-4f87-4731-842b-1ddc4b8aa788",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "intent",
+          "value": "cells",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "cells",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "cells \u003d $magnitude"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

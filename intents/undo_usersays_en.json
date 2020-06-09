@@ -1,0 +1,200 @@
+[
+  {
+    "id": "861c2199-8c79-4808-a3b5-b72c08961cfe",
+    "data": [
+      {
+        "text": "undo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "7138dd4b-bba6-4fb5-95c7-33b9385d9e3f",
+    "data": [
+      {
+        "text": "Undo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "b1443238-1a45-45ae-8f16-fb33fc05b43b",
+    "data": [
+      {
+        "text": "Remove entries ",
+        "userDefined": false
+      },
+      {
+        "text": "1 4 6 2",
+        "alias": "entries",
+        "meta": "@sys.number-sequence",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e529f9a1-390d-49d6-8976-812f56d1325b",
+    "data": [
+      {
+        "text": "Undo entries ",
+        "userDefined": false
+      },
+      {
+        "text": "10 9 5 2",
+        "alias": "entries",
+        "meta": "@sys.number-sequence",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a9fbe51d-a1fe-4622-a7c1-654ec18fdbd6",
+    "data": [
+      {
+        "text": "Undo entry ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "entries",
+        "meta": "@sys.number-sequence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "db0ff85c-3937-4d2a-bf31-21cf21988ec4",
+    "data": [
+      {
+        "text": "Delete entry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "80cc2692-e0cc-48de-bafa-089422d2ca3d",
+    "data": [
+      {
+        "text": "Delete previous entry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2d4ad65b-fe72-4160-a801-73a064f86cbc",
+    "data": [
+      {
+        "text": "I didn\u0027t say that.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "864782c1-af77-4eac-b9a8-df26eaa2fc64",
+    "data": [
+      {
+        "text": "Error",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "111ac1ed-3238-47f6-82c1-5f8300db80b3",
+    "data": [
+      {
+        "text": "Incorrect",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "44c8d429-118f-44df-834a-963ae70a03dd",
+    "data": [
+      {
+        "text": "That\u0027s not what I said.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fa10228b-d407-4f56-871b-26fe09791aa8",
+    "data": [
+      {
+        "text": "Undo previous entry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a56a623f-c4d0-4197-bf6d-d63c902c2ea5",
+    "data": [
+      {
+        "text": "Undo entry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "55034345-6a36-4a0c-b91b-66530ddd625a",
+    "data": [
+      {
+        "text": "Remove entry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8b400f74-d647-4752-87c3-ec4d9f3563f5",
+    "data": [
+      {
+        "text": "Remove previous entry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

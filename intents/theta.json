@@ -1,0 +1,63 @@
+{
+  "id": "5f1ab073-f0fe-4fd7-b417-416a1ac19611",
+  "name": "theta",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d7f8740b-a6e1-4dff-957f-ba0dd35ad634",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "magnitude",
+          "value": "$magnitude",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Magnitude?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "e87ed7aa-59e5-4a3f-a590-b9a5f10789bc",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "intent",
+          "value": "theta",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "theta",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Theta \u003d $magnitude"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

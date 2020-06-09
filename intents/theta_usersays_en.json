@@ -1,0 +1,134 @@
+[
+  {
+    "id": "0711cc6e-c842-4d91-8e54-baac0985c065",
+    "data": [
+      {
+        "text": "theta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1d1eeb8f-51b1-4ee2-92c5-97d61926014b",
+    "data": [
+      {
+        "text": "Theta  \u003d ",
+        "userDefined": false
+      },
+      {
+        "text": "plus",
+        "alias": "magnitude",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c4696a40-1e03-4dae-a403-bb08f9a4d42c",
+    "data": [
+      {
+        "text": "Theta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "02231c57-76a6-4da1-95b6-4229e1d3692f",
+    "data": [
+      {
+        "text": "theta \u003d",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "af5e0f19-13fc-4779-8839-860f7bc109dd",
+    "data": [
+      {
+        "text": "Theta waves",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2b6583db-21b7-43a8-abeb-c5869cd32fd5",
+    "data": [
+      {
+        "text": "Theta ",
+        "userDefined": false
+      },
+      {
+        "text": "plus plus plus",
+        "alias": "magnitude",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1fab1d24-ce64-4346-9c69-8c95e47d9f80",
+    "data": [
+      {
+        "text": "Theta ",
+        "userDefined": false
+      },
+      {
+        "text": "minus minus minus",
+        "alias": "magnitude",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ba5fd962-a68b-4d82-a391-be3362286e41",
+    "data": [
+      {
+        "text": "Theta ",
+        "userDefined": false
+      },
+      {
+        "text": "plus plus",
+        "alias": "magnitude",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "18bca276-1ee6-4647-b575-92b7f76b4647",
+    "data": [
+      {
+        "text": "Theta wave",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

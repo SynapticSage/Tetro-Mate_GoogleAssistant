@@ -1,0 +1,134 @@
+[
+  {
+    "id": "e3b30d79-4783-4169-9d44-09ad432a984f",
+    "data": [
+      {
+        "text": "delta ",
+        "userDefined": false
+      },
+      {
+        "text": "--",
+        "alias": "modification",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "43484cf9-de9e-40e3-8ed9-829877596c0a",
+    "data": [
+      {
+        "text": "delta ",
+        "userDefined": false
+      },
+      {
+        "text": "++",
+        "alias": "modification",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "66cf98e4-4624-497a-b760-bdcebc2f8daf",
+    "data": [
+      {
+        "text": "delta wave ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "32d4499d-360c-49a0-9d1d-32d2f52a2a88",
+    "data": [
+      {
+        "text": "delta ",
+        "userDefined": false
+      },
+      {
+        "text": "-1",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "54a725c5-6ac1-44d5-902e-57ecfe713f4f",
+    "data": [
+      {
+        "text": "delta \u003d ",
+        "userDefined": false
+      },
+      {
+        "text": "24",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "20055bdc-09c8-463d-8afe-23d32ddf6fd3",
+    "data": [
+      {
+        "text": "delta waves",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a8a3ec3a-9833-4cc2-9dfe-54c1d1ee53dc",
+    "data": [
+      {
+        "text": "delta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "b76d8ead-f4fb-4788-abfa-393d5666effe",
+    "data": [
+      {
+        "text": "delta ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

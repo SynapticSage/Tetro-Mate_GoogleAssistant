@@ -1,0 +1,152 @@
+[
+  {
+    "id": "977ef61f-3220-49f7-a140-2f5fd6c174a9",
+    "data": [
+      {
+        "text": "cell count is ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "5715e70f-6491-4431-be17-d0844e82caa3",
+    "data": [
+      {
+        "text": "cell count is ",
+        "userDefined": false
+      },
+      {
+        "text": "0",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "bf4fc143-90f9-43cb-a0d0-e698637aa0dc",
+    "data": [
+      {
+        "text": "cell count is ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "74d267f2-e3d3-433f-9cde-7f6aa78c4956",
+    "data": [
+      {
+        "text": "Cell count is ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "5e241af1-dfe1-437d-be89-7dbecd906271",
+    "data": [
+      {
+        "text": "cell count is ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4c60c504-0f02-4025-aa00-494cb91be553",
+    "data": [
+      {
+        "text": "Cells",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "9d020afd-e987-44a2-856e-8f003ed60089",
+    "data": [
+      {
+        "text": "25",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " cells",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8a70f237-a6a6-4d50-bcf1-0d74569725bf",
+    "data": [
+      {
+        "text": "Cell count",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc1f9a34-35be-4492-b2a9-f9016374c335",
+    "data": [
+      {
+        "text": "Cell count ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "magnitude",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

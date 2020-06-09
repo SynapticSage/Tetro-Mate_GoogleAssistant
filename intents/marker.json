@@ -1,0 +1,56 @@
+{
+  "id": "8886eec7-4ac6-412b-b018-be8eb1a3382e",
+  "name": "marker",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d7ea62cc-f5da-424f-b1bf-97ea7794943c",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "marker",
+          "value": "$marker",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "5dac4663-c06a-445e-a651-41418b69cc8e",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "intent",
+          "value": "marker",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Lowering session marker \u003d $marker"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

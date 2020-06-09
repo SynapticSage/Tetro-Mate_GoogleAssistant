@@ -1,0 +1,75 @@
+{
+  "id": "b17c0fcf-eefe-4204-9d70-141a937f75bd",
+  "name": "set-area",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "113c02d3-105b-49c2-bfe9-22a777cc20a9",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "area",
+          "value": "$area",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which area?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "33ee719d-a7b7-4850-8eac-e07ccab25f75",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "tetrode",
+          "value": "$tetrode",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "-1",
+          "isList": true
+        },
+        {
+          "id": "69425ebf-bd76-4d28-9b38-d7e5b382fe8e",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "intent",
+          "value": "set-area",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Got it, area \u003d $brain_area"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

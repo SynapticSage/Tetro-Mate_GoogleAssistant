@@ -1,0 +1,134 @@
+[
+  {
+    "id": "a07fb1ca-bffe-42ea-848a-31daa792c8f3",
+    "data": [
+      {
+        "text": "cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b2ff2d0d-ca63-4f68-8f2c-8bc362655167",
+    "data": [
+      {
+        "text": "nevermind",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "73c71dfa-8023-44e8-b972-c58e92733078",
+    "data": [
+      {
+        "text": "Nevermind",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "f1462b54-e9ea-464b-942a-4ec44b764a9b",
+    "data": [
+      {
+        "text": "end listening",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "6629a347-1f94-4412-bd36-88f26ec7435d",
+    "data": [
+      {
+        "text": "stop listening",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "22f44cfd-3352-484a-ba47-a2ffbf398117",
+    "data": [
+      {
+        "text": "stop conversation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3723bc49-9c83-4a4d-913e-a3fa6ddb0fe9",
+    "data": [
+      {
+        "text": "stop",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ade8951d-3883-43ff-9457-9086dec4468a",
+    "data": [
+      {
+        "text": "stop please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5b5381a-3473-4049-8665-ed3a1201a58f",
+    "data": [
+      {
+        "text": "end conversation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f0134b94-4e24-4942-ba2d-7e58294b304a",
+    "data": [
+      {
+        "text": "end conversations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6c6672c6-808c-44c8-9e39-3959c1cd1236",
+    "data": [
+      {
+        "text": "End notes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

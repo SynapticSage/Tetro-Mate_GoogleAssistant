@@ -1,0 +1,61 @@
+{
+  "id": "e80bddb3-8f60-49c7-a72b-5d0035993454",
+  "name": "undo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2078848a-d5e4-4770-8457-0cd780db3ed6",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "intent",
+          "value": "undo",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "undo",
+          "isList": false
+        },
+        {
+          "id": "35a7c031-a1db-43be-9978-f1d333cec5ff",
+          "required": false,
+          "dataType": "@sys.number-sequence",
+          "name": "entries",
+          "value": "$entries",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "-1",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Got it, deleting entry.",
+            "Got it, deleting entries \u003d [$entries]"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

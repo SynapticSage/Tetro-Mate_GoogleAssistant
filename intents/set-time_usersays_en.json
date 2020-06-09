@@ -1,0 +1,120 @@
+[
+  {
+    "id": "4e119d38-d9d6-42d2-bb6b-c86e3a685307",
+    "data": [
+      {
+        "text": "time.\u003d ",
+        "userDefined": false
+      },
+      {
+        "text": "5pm on June 2",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "407edaad-eb0f-4766-9f3a-4bf31cd697b1",
+    "data": [
+      {
+        "text": "set time to ",
+        "userDefined": false
+      },
+      {
+        "text": "March 23",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d1232f85-5a96-497a-9b7b-f7a586fbd5e7",
+    "data": [
+      {
+        "text": "time is ",
+        "userDefined": false
+      },
+      {
+        "text": "2:00pm on May 6",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8e58c061-2eb8-437a-aeb1-647896753933",
+    "data": [
+      {
+        "text": "time manual is ",
+        "userDefined": false
+      },
+      {
+        "text": "10:00 pm on July 6, 2020",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f7147179-21fb-495e-aa97-8ae3f5c45c3a",
+    "data": [
+      {
+        "text": "time ",
+        "userDefined": false
+      },
+      {
+        "text": "manual",
+        "alias": "mode",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "2020/08/02",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "77c4b023-7d0f-438d-bad8-333f574db180",
+    "data": [
+      {
+        "text": "time ",
+        "userDefined": false
+      },
+      {
+        "text": "auto",
+        "alias": "mode",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

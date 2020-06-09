@@ -1,0 +1,38 @@
+[
+  {
+    "id": "59400057-7446-42fe-9147-e0889e501d15",
+    "data": [
+      {
+        "text": "Send pretty to raw",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "daee33fa-ac7c-4370-966a-bf4ef694cf22",
+    "data": [
+      {
+        "text": "Send pretty table to raw",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "97be2eb6-ea34-4e7f-9daa-01c3e3e45637",
+    "data": [
+      {
+        "text": "Generate raw from pretty table",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

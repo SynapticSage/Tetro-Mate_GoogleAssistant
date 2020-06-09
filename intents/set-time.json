@@ -1,0 +1,70 @@
+{
+  "id": "35b2c0bb-5653-4d57-90b5-16c0dfed638b",
+  "name": "set-time",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5f0b070c-67c0-4cc0-b471-b1fa404698a9",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "mode",
+          "value": "$mode",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "manual",
+          "isList": false
+        },
+        {
+          "id": "ed21b87e-459b-4900-8fb4-fe50434ef3e6",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "time",
+          "value": "$time",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "-1",
+          "isList": false
+        },
+        {
+          "id": "d0a4c75b-f0d4-494b-a38e-6c31ab898f6a",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "intent",
+          "value": "set-time",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "$mode: $time"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

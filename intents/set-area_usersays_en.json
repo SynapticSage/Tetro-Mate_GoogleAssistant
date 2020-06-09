@@ -1,0 +1,246 @@
+[
+  {
+    "id": "730fc6dc-7ed4-416b-8c85-cbe8d00d423d",
+    "data": [
+      {
+        "text": "Area \u003d ",
+        "userDefined": false
+      },
+      {
+        "text": "motor cortex",
+        "alias": "area",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "45",
+        "alias": "tetrode",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "61",
+        "alias": "tetrode",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "65",
+        "alias": "tetrode",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fa2ff46f-e1ef-4d06-8141-6aa9f0efcf1a",
+    "data": [
+      {
+        "text": "Area is ",
+        "userDefined": false
+      },
+      {
+        "text": "CA3",
+        "alias": "area",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "tetrode",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "tetrode",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "tetrode",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "tetrode",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "51",
+        "alias": "tetrode",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "tetrode",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "14",
+        "alias": "tetrode",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "56d0c498-5db6-4d7b-84ae-c7d36e173eee",
+    "data": [
+      {
+        "text": "area ",
+        "userDefined": false
+      },
+      {
+        "text": "prelimbic",
+        "alias": "area",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "66740ef7-ddd7-4455-9d25-d830cf73f214",
+    "data": [
+      {
+        "text": "Area ",
+        "userDefined": false
+      },
+      {
+        "text": "striatum",
+        "alias": "area",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1f643a15-3843-4704-8aae-5b0df53e22aa",
+    "data": [
+      {
+        "text": "Area is ",
+        "userDefined": false
+      },
+      {
+        "text": "motor cortex",
+        "alias": "area",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f983f8c5-6b9a-4920-86bb-5e2b514a02dd",
+    "data": [
+      {
+        "text": "Area \u003d ",
+        "userDefined": false
+      },
+      {
+        "text": "CA1",
+        "alias": "area",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cf9473b9-2e9b-462c-a144-005d38d5d69a",
+    "data": [
+      {
+        "text": "Area ",
+        "userDefined": false
+      },
+      {
+        "text": "CA1",
+        "alias": "area",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cba1e226-63f5-4209-88c1-e4d395cab425",
+    "data": [
+      {
+        "text": "Brain area is ",
+        "userDefined": false
+      },
+      {
+        "text": "callosum",
+        "alias": "area",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

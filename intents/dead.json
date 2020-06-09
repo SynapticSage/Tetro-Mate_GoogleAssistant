@@ -1,0 +1,74 @@
+{
+  "id": "e8b7e426-3274-4c03-81a9-5a74a52aebb7",
+  "name": "dead",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2d0bb2b5-b2bb-429f-b86b-41fbbc6fc6c5",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "name": "tetrode",
+          "value": "$tetrode",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "be512370-8f19-4b6c-bfb3-d7bbd2596d68",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "channel",
+          "value": "$channel",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which channels?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "9f2dcceb-ea5c-4db0-918b-01e97123b448",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "intent",
+          "value": "dead",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

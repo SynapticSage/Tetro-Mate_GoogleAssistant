@@ -1,0 +1,68 @@
+{
+  "id": "bd0e2356-3fb3-4948-bf3f-f104a33f7680",
+  "name": "delta",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0b2eea12-1f3c-4317-bf40-46adfe573c18",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "magnitude",
+          "value": "$magnitude",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "5becafb2-c07f-4c09-92f1-e598379e233f",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "intent",
+          "value": "delta",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "5aedd9f0-eff9-40b2-83b4-21d0be4dd7b3",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "modification",
+          "value": "$modification",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

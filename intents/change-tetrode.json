@@ -1,0 +1,66 @@
+{
+  "id": "a4e852f6-47ee-4fd5-aa15-13f0d3399cd2",
+  "name": "change-tetrode",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a9394606-94e2-4004-b5ae-f25ade157bf9",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "tetrode",
+          "value": "$tetrode",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which tetrode?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "80e50c3a-852b-48d3-8762-eb72de30a0a6",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "intent",
+          "value": "change-tetrode",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Changing to $tetrode",
+            "Flipping to $tetrode",
+            "Switching to $tetrode"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

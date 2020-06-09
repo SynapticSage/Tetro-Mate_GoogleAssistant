@@ -1,0 +1,3834 @@
+[
+  {
+    "id": "dd4a1f79-c9d4-43fe-ba05-e2ad5e0b6280",
+    "data": [
+      {
+        "text": "7",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "14",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "31",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "32",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "33",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "55",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "70",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c0f47f1e-e276-4d60-aab7-62c24f2a2e00",
+    "data": [
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "11",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "22",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "21",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "78136f08-ba25-4278-87fc-c09bc695cab7",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "60",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "70",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "80",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "51",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "45",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6cc2572b-20ec-402b-8e91-2050f68d69fb",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "13",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "12",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7ae166a4-9d45-4246-9adc-67dca113a34f",
+    "data": [
+      {
+        "text": "up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "24",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "90",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7f155b6a-5f68-4973-9ac9-bb11a724ac59",
+    "data": [
+      {
+        "text": "12",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": ", and ",
+        "userDefined": false
+      },
+      {
+        "text": "37",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "61201087-be3a-4374-8bd2-c60efff9cc55",
+    "data": [
+      {
+        "text": "Up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "14",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "367b5d69-6ec6-453d-b6bd-186d07d24da8",
+    "data": [
+      {
+        "text": "Down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "  ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "23",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "21",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "16",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "99326cde-c337-4eba-b562-6ae55b989988",
+    "data": [
+      {
+        "text": "1",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "24",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1d838f96-c45c-4721-ba2c-9f0dbd7681ae",
+    "data": [
+      {
+        "text": "1",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "73b444ad-4700-44b6-bf3e-3f14fe0db279",
+    "data": [
+      {
+        "text": "-2",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "16",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "265ecd49-9568-40ac-81ba-1bd10a77f6e2",
+    "data": [
+      {
+        "text": "-2",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "17",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0a72aaa7-5caf-4d8b-a886-ca51e333e032",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "16",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c9826cbd-d91b-469d-a89c-d5a60ea4528d",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "17",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c6853d00-d7d5-44f4-bf14-eefc8667b782",
+    "data": [
+      {
+        "text": "up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "28",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "56c7054f-9419-431a-a7d3-904b31e6fa34",
+    "data": [
+      {
+        "text": "up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "31",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "013824ee-9531-4cca-b159-4813032923d0",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "59",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b80da434-cd31-40e3-8f07-4a6bf43a0ba3",
+    "data": [
+      {
+        "text": "23",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f0d8673b-607f-490e-8a5a-2da6fba31ea5",
+    "data": [
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "7",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f22de40e-649f-406a-ac3f-c33598b56a46",
+    "data": [
+      {
+        "text": "Up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0e45b690-06f4-48b1-8fcf-26592d4677bb",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f691b8f8-ecbe-44a3-bb81-5a83c57bbd98",
+    "data": [
+      {
+        "text": "Up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7c3f99e9-507e-4265-8eb0-237f2e857bad",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "8",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3a7f6c1a-a900-44d5-9faa-bb8ef97add15",
+    "data": [
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "63",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "33153122-1ac4-4b5d-9d61-d9c6bc53a6a5",
+    "data": [
+      {
+        "text": "three",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "24",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9576a686-35b0-47b9-a9ae-ab870dc9a330",
+    "data": [
+      {
+        "text": "three",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "858a4b65-b6e4-4408-bffb-10093890c556",
+    "data": [
+      {
+        "text": "three",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "51",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d312f636-dad4-4426-ba7f-ef43415a4865",
+    "data": [
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "53",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9c48399e-9651-44fd-80b6-fa9ffcd2f77e",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "62",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "57b91c40-a754-4e1c-8d0a-4b3930551bf1",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "46",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "c0a05cf8-569a-4582-8dd7-aa8262ad1184",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "47",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "b927484a-5323-4fe1-911b-258c5a61067e",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "47",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "6c1c538c-5fdf-46f4-b855-7235fecbc8ae",
+    "data": [
+      {
+        "text": "Lower ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "48",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "58485505-4359-43ee-99e6-6a0fff4bb003",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "d0e4b3fe-a66c-493a-8ae9-331e5a000ed1",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "51",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "f548ee09-d0b2-4980-99d3-f70f830eeb58",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " down on ",
+        "userDefined": false
+      },
+      {
+        "text": "51",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "c48e72ef-f9e3-492d-9887-1bbe4d8da03b",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "51",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "4bfa04f2-2978-4ee5-b880-3409140c1e1e",
+    "data": [
+      {
+        "text": "lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "44",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7533c56b-c62a-4971-b36d-d8d0a47a8edd",
+    "data": [
+      {
+        "text": "lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "45",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "0f5f4a41-599c-455f-96da-9bd49f14677a",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "48",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "723e3f64-a6bc-43d3-ac2c-0423e8f7d635",
+    "data": [
+      {
+        "text": "lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "six",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "42",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ed6b16e5-0b61-46a8-bedb-1cf8191a8355",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "three",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "42",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e922a015-d4c8-4843-aa1f-e709450830b9",
+    "data": [
+      {
+        "text": "lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "zero",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "zero",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 0
+  },
+  {
+    "id": "c57fef57-1628-4d02-ac18-10b9d0f41508",
+    "data": [
+      {
+        "text": "lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Zero",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " from ",
+        "userDefined": false
+      },
+      {
+        "text": "zero",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "47e90439-77b3-4135-ba19-7997014fa4e6",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "zero",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "zero",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8306f7f2-d775-47a9-a566-ff4b7d810a73",
+    "data": [
+      {
+        "text": "Adjust tetrode",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 0
+  },
+  {
+    "id": "6645cdfb-5d36-4a1c-8eeb-d7cd52cfee97",
+    "data": [
+      {
+        "text": "Adjust tetrodes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "6bd67d40-bab9-4c80-bd84-6e0ce5763edc",
+    "data": [
+      {
+        "text": "0",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "27",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e9498a4-b3f3-4be7-9147-70aa1a396e9f",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "0",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "27",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5019dc76-1891-4864-8c3e-33cbfdeb47a7",
+    "data": [
+      {
+        "text": "Adjust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "16c3e084-e8b7-4c8e-bb5a-e4b55b2132e5",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "23f53e77-80eb-4c9c-936b-56880f8c751a",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "zero",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "27",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "014de37a-4da7-40e1-ab14-d298243ca65b",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "0",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "27",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "a0c66e78-22fd-4372-ac36-feb0f6134a13",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "three",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "bb191536-6bb2-4577-9510-e502f5b0bc73",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "be67708d-95a6-43d3-ac1d-95d12980ad0a",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "21",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "3e8d7549-23a0-43b3-8cb3-1088d40c31b7",
+    "data": [
+      {
+        "text": "three",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "d037641c-c498-45a9-afba-59b4bc722982",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "22",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "7aaadaad-9606-4ee3-b241-1158213ba974",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "423",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5f2a6cc-dfa2-4a27-b0ce-434903a613d4",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "23",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "bdbe1848-4064-4d02-b37f-5da4a8cf8e67",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "24",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "9a9e6de9-8788-45ec-9928-22f50e772584",
+    "data": [
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "zero",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3b26c882-3830-40b4-978d-3cb15a61302c",
+    "data": [
+      {
+        "text": "0",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "18",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "84a904c0-fd8e-4ec1-bb70-a27b76d57c44",
+    "data": [
+      {
+        "text": "9",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "18",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "87ecd198-3262-46e6-bb99-05d3de9f4a5e",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "0",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "27",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "34fd4fc3-73be-480b-a10e-3d627e6e4d7f",
+    "data": [
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ":",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3358860b-99d6-4ad4-bce8-8af47d5b07e6",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dafc1dbe-fef0-4970-a386-0b20879487f6",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bc3bc42b-85ba-41f8-9c61-5d4d4329594b",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "12",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "8",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d9ab9255-1f0d-416b-9fe6-80f8328b04f5",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "16",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c69ae34b-db26-403d-9bf9-1e5628411ca2",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "8",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "39d732e2-deb5-4388-a34c-2aab079d1daa",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "8",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "41690146-572b-4ff1-abdb-5453768cb639",
+    "data": [
+      {
+        "text": "Turn",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b33a022b-4b37-4a46-b3ae-2befb73ca7b8",
+    "data": [
+      {
+        "text": "Hey Google, ",
+        "userDefined": false
+      },
+      {
+        "text": "lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "12.34",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "59b4ff1d-bce3-4822-817c-a67011f05332",
+    "data": [
+      {
+        "text": "Hey Google, ",
+        "userDefined": false
+      },
+      {
+        "text": "raise",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c0f2e86c-7fc2-4247-b382-432cd10b660c",
+    "data": [
+      {
+        "text": "23",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2e6d6af5-32d9-4ef3-a9f4-40d7519487f5",
+    "data": [
+      {
+        "text": "23",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4641809e-e354-4b68-9038-8a1d7708f8ae",
+    "data": [
+      {
+        "text": "9",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "49f01f5b-b5cc-407e-9260-fc11f8cbd09a",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "12",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2cfcd99a-6d3c-4fcb-9913-8047b1614074",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "13",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b969ec8e-4081-4227-add3-6ef559e26072",
+    "data": [
+      {
+        "text": "Turm ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "12",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8f4141cb-db74-4602-86a2-a7d844582548",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "70",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eeb91e59-e0bf-4ba2-99c1-b5a881fc6e31",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "60",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4933e547-4878-4259-93dc-0e4de288b4ea",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "13",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "73746e86-580d-42e3-9507-0f82284a3f30",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " down for ",
+        "userDefined": false
+      },
+      {
+        "text": "7",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c21c55a1-c70f-427f-8892-74c9dd4d1f44",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "234",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "43",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "12264bdf-81e0-4dbf-a819-fee57fe906ad",
+    "data": [
+      {
+        "text": "Raise",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "6.345",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "/",
+        "userDefined": false
+      },
+      {
+        "text": "43",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "16e89a80-36ac-4011-8a71-0849d71aec7f",
+    "data": [
+      {
+        "text": "Down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "/",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cf4566bd-602e-423f-bc44-d58d4017f7c4",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "seven",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "-on-",
+        "userDefined": false
+      },
+      {
+        "text": "seven",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2dc45c2b-2f5b-48f2-bdea-54836736645e",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "7.7",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on electrode ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1baf8ed9-9880-4dfc-97e2-884d6dc3f3ee",
+    "data": [
+      {
+        "text": "Up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3.14",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on tetrode ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6385c6b0-482d-4d5c-9144-cef6ebfc40ee",
+    "data": [
+      {
+        "text": "Raise",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "10.23423",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e978ba27-3cc1-4d7d-99b1-a7ddc809b3d0",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1b033c67-2d62-47d5-ac30-e59efcd672f6",
+    "data": [
+      {
+        "text": "Raise",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "de8286c3-1ee3-4112-afcc-757c0a3b956d",
+    "data": [
+      {
+        "text": "Down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "53632544-d77c-4ea1-b656-769721a4f464",
+    "data": [
+      {
+        "text": "Up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "12.25",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on  ",
+        "userDefined": false
+      },
+      {
+        "text": "45",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fc1b0ad9-34f6-4f53-930d-9a20a3962d27",
+    "data": [
+      {
+        "text": "Raise",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a8811f93-7912-41f6-b6e2-3e914d1c8cc6",
+    "data": [
+      {
+        "text": "Up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "11.2",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2d81c0e5-7b30-41b2-8a21-5dfe3f58e490",
+    "data": [
+      {
+        "text": "Down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5.3",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "81739090-5f60-4d2c-9b6e-304f7782e04c",
+    "data": [
+      {
+        "text": "Raise",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "11.2",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "819b3878-44ce-4b2b-a15b-e3377ae36197",
+    "data": [
+      {
+        "text": "Lower",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on  ",
+        "userDefined": false
+      },
+      {
+        "text": "11",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f2ab5f6d-8561-48a7-86f9-e1e461b0c6e0",
+    "data": [
+      {
+        "text": "Raise",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bfd360d0-e02b-497a-9ca8-a0adde9e64a4",
+    "data": [
+      {
+        "text": "Up",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "64",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "08ced6a2-6608-4c16-b6a0-4f9da977876f",
+    "data": [
+      {
+        "text": "Down",
+        "alias": "direction",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "turns",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "tetrode",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

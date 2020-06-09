@@ -1,0 +1,626 @@
+[
+  {
+    "id": "748a8a7f-6a57-496b-bc65-188a09ed6bb1",
+    "data": [
+      {
+        "text": "note ",
+        "userDefined": false
+      },
+      {
+        "text": "too much ripple on references",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5eb023d-7797-4765-8452-37059c0a83b2",
+    "data": [
+      {
+        "text": "note ",
+        "userDefined": false
+      },
+      {
+        "text": "quiet",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "9d0e027a-7bdb-43d7-aa00-30b5ab74242d",
+    "data": [
+      {
+        "text": "note ",
+        "userDefined": false
+      },
+      {
+        "text": "it\u0027s quiet",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "04c3aa96-2fc5-4e8f-bfeb-b00148ebfa5f",
+    "data": [
+      {
+        "text": "note ",
+        "userDefined": false
+      },
+      {
+        "text": "possibly in callosum",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3896a65a-75cf-4bdf-a5d3-24c552ba50eb",
+    "data": [
+      {
+        "text": "note ",
+        "userDefined": false
+      },
+      {
+        "text": "possibly a bursting pyramidal",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6e971343-78b5-4868-8433-2a7f8002ff40",
+    "data": [
+      {
+        "text": "Note ",
+        "userDefined": false
+      },
+      {
+        "text": "2 or 3 cells on 61",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cae9f975-3bac-439e-b255-cc0e0c8604b3",
+    "data": [
+      {
+        "text": "Note quiet to cell firing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "897c0bdd-3c64-475d-9c2c-18a6ab2a0af9",
+    "data": [
+      {
+        "text": "Note light cell firing background",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4673054f-b9e7-4d9d-9916-42ffd4da8ea7",
+    "data": [
+      {
+        "text": "note ",
+        "userDefined": false
+      },
+      {
+        "text": "large increase in firing",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "2e7ac54b-e7ce-494b-9db2-8be0370ece0f",
+    "data": [
+      {
+        "text": "Note ",
+        "userDefined": false
+      },
+      {
+        "text": "quiet to cell firing",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "42b72dbc-ffbb-447d-ad8a-0837cd7afcee",
+    "data": [
+      {
+        "text": "Note ",
+        "userDefined": false
+      },
+      {
+        "text": "light cell firing background",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8973e643-aba9-41b4-a5ae-0200d0c88846",
+    "data": [
+      {
+        "text": "Note ",
+        "userDefined": false
+      },
+      {
+        "text": "heard it maybe enter the brain and slightly higher background brain sounds",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "518d1db9-e2ed-4241-969b-617020f4a04f",
+    "data": [
+      {
+        "text": "Note possible increase in sounds, but very quite",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1058e378-ff94-40f9-b6f8-5dd1955265d6",
+    "data": [
+      {
+        "text": "note officially hear cell firing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2cac73b7-2c8f-422a-a00d-c8cde53fb797",
+    "data": [
+      {
+        "text": "Note ",
+        "userDefined": false
+      },
+      {
+        "text": "possible light pitter patter of cell firing background",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "e2c1e1c3-56bf-44aa-beca-406b75df42b6",
+    "data": [
+      {
+        "text": "note extremely quiet. possibly not in?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0d27656a-5921-4dc4-91a2-9ba98b5d8fa0",
+    "data": [
+      {
+        "text": "Note ",
+        "userDefined": false
+      },
+      {
+        "text": "large increase in neural firing. At least 2 cells.",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "58389704-1b20-4c0e-aed3-f5ce0c02754c",
+    "data": [
+      {
+        "text": "Note. ",
+        "userDefined": false
+      },
+      {
+        "text": "49 may be immovable. Acrylate glue may have gotten onto it when gluig his cone back on after surgery a few nights ago.",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f4d0f350-532d-4182-8873-7a17b7c94759",
+    "data": [
+      {
+        "text": "Note ",
+        "userDefined": false
+      },
+      {
+        "text": "slight increase in cell firing",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "ff869254-5f04-4a4c-bbc8-c7b24d09be29",
+    "data": [
+      {
+        "text": "Note ",
+        "userDefined": false
+      },
+      {
+        "text": "broke into large cluster",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "389f8692-65dd-4de6-b061-51f99697d065",
+    "data": [
+      {
+        "text": "note quiet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "24036524-a7ae-4965-97cf-bfefb7a17d37",
+    "data": [
+      {
+        "text": "Note ",
+        "userDefined": false
+      },
+      {
+        "text": "possible increase in sounds, but very quite",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6198e0f9-7f31-47ca-a80f-f9e93cac786f",
+    "data": [
+      {
+        "text": "note ",
+        "userDefined": false
+      },
+      {
+        "text": "officially hear cell firing",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9b30a349-ef96-48d8-bbae-822d72fa376b",
+    "data": [
+      {
+        "text": "note ",
+        "userDefined": false
+      },
+      {
+        "text": "extremely quiet. possibly not in?",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "23505867-5fb4-4163-9e68-682c12ff1fa2",
+    "data": [
+      {
+        "text": "Note",
+        "userDefined": false
+      },
+      {
+        "text": ". 49 may be immovable. Acrylate glue may have gotten onto it when gluig his cone back on after surgery a few nights ago.",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aeac566b-9077-4500-ac33-ea4e7d0a0705",
+    "data": [
+      {
+        "text": "note",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "318795b8-73b6-4f53-b3ae-18f5124e3a46",
+    "data": [
+      {
+        "text": "note ",
+        "userDefined": false
+      },
+      {
+        "text": "large increase in cell firing",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f4765b4-c26e-4186-bbfe-598ddbf28141",
+    "data": [
+      {
+        "text": "Note i see new cells here",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "eca4185e-cbf1-479d-963f-33c75c094870",
+    "data": [
+      {
+        "text": "Note cell firing may have been due to commutator noise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "afe47ba1-c1e2-40a0-a428-71c45c3fd120",
+    "data": [
+      {
+        "text": "Note ",
+        "userDefined": false
+      },
+      {
+        "text": "4 sparse cells huge signal",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "0f435073-7d58-436e-bdbf-9eb8b114a264",
+    "data": [
+      {
+        "text": "Note ",
+        "userDefined": false
+      },
+      {
+        "text": "i see new cells here",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d6496c9a-1557-4f07-88d0-86a0b194bf62",
+    "data": [
+      {
+        "text": "Note ",
+        "userDefined": false
+      },
+      {
+        "text": "cell firing may have been due to commutator noise",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b94f8289-62cf-448b-9533-9fa6e662f8e6",
+    "data": [
+      {
+        "text": "Note",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "60669efc-1cce-4c2d-8659-0e759d787b93",
+    "data": [
+      {
+        "text": "Notes, ",
+        "userDefined": false
+      },
+      {
+        "text": "the tetrode is broken",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4b5f835d-e1ab-42a2-a4f4-645e13289d83",
+    "data": [
+      {
+        "text": "Note, ",
+        "userDefined": false
+      },
+      {
+        "text": "silence",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9af0ce2d-8bd5-496b-92a4-973097018f68",
+    "data": [
+      {
+        "text": "Note, ",
+        "userDefined": false
+      },
+      {
+        "text": "my nut-piece is wobbling.",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5c5903c1-e226-4b04-82d8-d2e5a83514c0",
+    "data": [
+      {
+        "text": "Note, ",
+        "userDefined": false
+      },
+      {
+        "text": "sounds like delta waves",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "68dbf26f-1393-43eb-8ecb-ff4511f46930",
+    "data": [
+      {
+        "text": "Note, ",
+        "userDefined": false
+      },
+      {
+        "text": "there are 50 billion cells here.",
+        "alias": "note",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
