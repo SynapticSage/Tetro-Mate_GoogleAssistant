@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, Markup
 app = Flask(__name__,
             static_folder='static',
             template_folder='templates')
@@ -19,7 +19,8 @@ class ExperimateLogger:
     
     ## CONSTRUCTOR
     def __init__(self, credentials, key="", url="", title="", continuous_explode=False,
-                 log_pretty_table=False, continuous_cloud_update=False):
+                 log_pretty_table=False, continuous_cloud_update=False, screw_type="openefizz",
+                 const_depth_mm=None):
         import gspread
 
         self.continuous_cloud_update = continuous_cloud_update # Whether to continuously reload changes from the cloud
@@ -46,6 +47,9 @@ class ExperimateLogger:
         else:
             self.pretty_worksheet = self.spreadsheet.add_worksheet("Summary", rows=1, cols=1)
 
+        self.screw_type = screw_type;
+        self.const_depth_mm = const_depth_mm
+
         # Load Internal data
         self.df = gsd.get_as_dataframe(self.raw_worksheet, include_index=True, parse_dates=True, userows=[0,1])
         self.set_types()
@@ -60,8 +64,10 @@ class ExperimateLogger:
         if self.df.isna().all().all():
             self.df = pd.DataFrame([], 
                                    columns=['intent','tetrode','turns','magnitude','note','exception'],
-                                   index=pd.DatetimeIndex, name='datetime')
-            gsd.set_with_dataframe(self.raw_worksheet, self.df, include_index=True)
+                                   index=pd.DatetimeIndex([], name='datetime'))
+            gsd.set_with_dataframe(self.raw_worksheet,
+                                   self.df,
+                                   include_index=True)
 
         # Check datetime index
         if self.df.index.name != 'datetime':
@@ -180,15 +186,16 @@ class ExperimateLogger:
 
     ## Intelligent reply methods (get)
     # --------------------------------
-    def get_depth(self, tetrode, depth_type='new', return_depth_data=False):
+    def get_depth(self, tetrode, screw_type=None, return_depth_data=False):
         ''' Returns a fulfillmentText about the depth, and mm '''
+
+        if screw_type is None or screw_type == -1 or screw_type == "-1":
+            screw_type = self.screw_type
+
         if not isinstance(tetrode, list) and int(tetrode) == -1:
             tetrode = self.get_df_current_tetrode()
-        if depth_type == "new":
-            turns_per_mm = 4
-        else:
-            turns_per_mm = 1/0.3175
-        
+
+        turns_per_mm = self.get_turns_per_mm() 
         depth = self.df[ self.df.tetrode == tetrode ].turns.fillna(0).cumsum().iloc[-1]
         markers_per_revolution = 12
         mmdepth = float(depth)/(markers_per_revolution * turns_per_mm)
@@ -198,6 +205,22 @@ class ExperimateLogger:
             pstring = self.prediction(tetrode)
             ret_value = f"Depth of {tetrode} is {depth:2.2f}. In other words, {mmdepth:2.2f} millimeters. {pstring}"
         return ret_value
+
+    def get_turns_per_mm(self, screw_type=None):
+
+        if screw_type is None:
+            screw_type = self.screw_type
+
+        if screw_type == "roshan":
+            turns_per_mm = 4
+        elif screw_type == "openefizz":
+            turns_per_mm = 1 / 0.2;
+        elif screw_type == "aught80":
+            turns_per_mm = 1/0.3175 # Foster drive (Roshan screw) conversion
+        else:
+            raise ValueError("Screw not recognized")
+
+        return turns_per_mm
 
     def prediction(self, tetrode, depth=None, return_prediction_data=False):
         '''
@@ -245,20 +268,69 @@ class ExperimateLogger:
 
         current_depths = pretty_table.swaplevel(0,1,axis=1)[properties].ffill().iloc[-1]
         current_depths_df = pd.DataFrame(current_depths)
+        if len(current_depths_df.index.names) > 1:
+             current_depths_df = current_depths_df.swaplevel(0,1).unstack()
         current_depths_df.columns = list(properties)
         # Get area tetrodes
         current_depths_df = current_depths_df.merge(self.tetrode_properties, on="tetrode")
         current_depths_df.set_index(list(self.tetrode_properties.columns), append=True, inplace=True)
-        return current_depths_df
+        return current_depths, current_depths_df
+    
+    ## PLOT METHODS
+    # -------------
+    def display_depth(self, show=False, shift=1.5, property_name=["depth_mm", "turns"]):
+        from matplotlib import pyplot as plt
+        if "depth_mm" in property_name:
+            shift *= 0.25 / 12
+        _, depths = self.get_current_property_table(properties=property_name)
+        plt.close('all')
+        depths = -(depths.astype('float'))
+        depths = depths.reset_index('tetrode').reset_index(drop=True).set_index('tetrode')
+        I = depths.index
+        I = pd.Index(depths.index.to_frame().iloc[:,-1]).astype('int')
+        if self.const_depth_mm is not None and 'depth_mm' in depths:
+            depths.loc[:,'depth_mm'] -= self.const_depth_mm
+        plt.ion()
+        fig, ax = plt.subplots(1, 1, figsize=(20,40))
+        ax.cla()
+        ax.set(xlabel='\nTetrode', ylabel = 'Depth (mm)\n')
+        ax.stem(I, depths[property_name[0]].values)
+        for i in range(len(depths)):
+            ax.text(I[i], depths[property_name[0]].values[i]+shift, str(I[i]))
+        #if len(property_name) == 2:
+        #    ax2 = ax.twinx()
+        #    ax2.stem(I, depths[property_name[1]].values, 
+        #             markerfmt='C2-', 
+        #             linefmt='C2--')
+        #ax.set(xticks = I.values, xticklabels= I.values, title="Tetrode Depths")
+        if show:
+            plt.show()
+        fig.savefig('static/depths.svg')
+
+    ## Standard update methods
+    ## -----------------------
+    def update_table(self):
+        '''
+        Updates table to current state
+        
+        Notes
+        -----
+        If you're playing around with this, be sure to backup() before!
+        '''
+        gsd.set_with_dataframe(self.raw_worksheet, self.df, 
+                               include_index=True,
+                               resize=True, 
+                               allow_formulas=False)
 
     ## ENTRY METHODS
     ## -------------
-    def entry_dead(self, tetrode, channel):
-        raise NotImplementedError
     def entry_set_time(self, mode, time, add_to_df=True):
+        if isinstance(time, dict):
+            if 'date_time' in time:
+                time = time['date_time'] # Googles response is a dict
         if mode == "auto":
             self.time['mode'] = "auto"
-            self.time['time'] = ''
+            self.time['time'] = arrow.now().datetime
         elif mode == "manual":
             self.time['mode'] = 'manual'
             D = arrow.get(time).datetime
@@ -270,7 +342,10 @@ class ExperimateLogger:
                 D = D.replace(year=now.year)
             self.time['time'] = D
 
-        fulfillmentText = f"{self.time['mode']}: {arrow.get(self.time['time']).humanize()}, {arrow.get(self.time['time']).format('YYYY-MM-DD')}"
+        if self.time['mode'] == "manual":
+            fulfillmentText = f"{self.time['mode']}: {arrow.get(self.time['time']).humanize()}, {arrow.get(self.time['time']).format('YYYY-MM-DD')}"
+        else:
+            fulfillmentText = f"{self.time['mode']}"
 
         if add_to_df:
             new_row = pd.DataFrame([['set-time', self.time['mode'], self.time['time']]], 
@@ -281,13 +356,28 @@ class ExperimateLogger:
             print(fulfillmentText)
         return fulfillmentText
     def entry_set_area(self, area, tetrode):
+        if hasattr(area, '__iter__') and len(area) == 1:
+            area = area[0]
+        if hasattr(tetrode, '__iter__') and len(tetrode) == 1:
+            tetrode = tetrode[0]
+
+
+        if isinstance(tetrode, str):
+            tetrode = int(tetrode)
         if tetrode == -1:
             tetrode = self.get_df_current_tetrode()
+
         new_row = pd.DataFrame([['area', tetrode, area]], 
                                index=self.get_datetime(),
                                columns=['intent','tetrode','area'])
+
         if self.continuous_explode:
             new_row.explode('tetrode') # If a list of tetrodes given, explode the dataframe to proper entries
+        self.df = pd.concat([self.df, new_row], axis=0)
+    def entry_dead(self, tetrode, channel):
+        new_row = pd.DataFrame([['dead', tetrode, "channels = " + str(channel)]], 
+                           index=self.get_datetime(mode="auto"),
+                           columns=['intent','tetrode','note'])
         self.df = pd.concat([self.df, new_row], axis=0)
     def entry_ripples(self, magnitude):
         magnitude = self.parse_magnitude(magnitude)
@@ -333,6 +423,8 @@ class ExperimateLogger:
 
         if isinstance(direction, list):
             direction = ' '.join(direction)
+        if isinstance(tetrode, list) and len(tetrode) == 1:
+            tetrode = tetrode[0]
 
         # Parse the direction and add any unrecognized to exception
         exception = ""
@@ -356,7 +448,7 @@ class ExperimateLogger:
         #self.df.loc[:, 'depth'] = self.df[self.df.intent == 'adjust-tetrode'].groupby('tetrode').turns.cumsum()
 
         if not isinstance(tetrode, list):
-            depth, depthmm = self.get_depth(tetrode, 'new', return_depth_data=True)
+            depth, depthmm = self.get_depth(tetrode, self.screw_type, return_depth_data=True)
             if append_prediction:
                 pstring = self.prediction(tetrode)
             else:
@@ -367,7 +459,10 @@ class ExperimateLogger:
             tetrode = [str(tet) for tet in tetrode]
             return f" ✓"
 
-    def entry_undo_entry(self):
+    def entry_undo_entry(self, entries=None):
+        '''
+        Todo add absolute or relative number list
+        '''
         if len(self.df) > 0:
             self.df = self.df.iloc[:-1]
             return "Got it, deleting previous entry."
@@ -401,39 +496,54 @@ class ExperimateLogger:
         If df is provided, this works like a static function!
         '''
         import numpy as np
+        import pytz
         if df is None:
             df = self.df
-            modify_self = False # Modify the self obj or return at end?
+            modify_self = True # Modify the self obj or return at end?
         else:
-            modify_self = True
+            modify_self = False
 
-        # Make index pd.Datetime!
-        if "datetime" in df.columns:
-            I = pd.to_datetime(df.datetime, utc=True)
-            I = I.dt.tz_convert('EST')
-            I = pd.DatetimeIndex(I)
-            I.name = 'datetime'
-            df = df.drop(columns='datetime').set_index(I)
-        else:
+        def klugey_datetime_correction(self):
+            df = self.df
             try:
                 I = df.index
-                #I = I.dt.tz_convert('EST')
+                if not isinstance(I, pd.DatetimeIndex):
+                    I = pd.DatetimeIndex(I)
+                I = I.dt.tz_convert(pytz.timezone('US/Eastern'))
                 I = pd.DatetimeIndex(I)
                 I.name = 'datetime'
                 df = df.set_index(I)
             except Exception as E:
                 try:
                     I = df.index
-                    I = I.dt.tz_convert('EST')
+                    if not isinstance(I, pd.DatetimeIndex, utc=True):
+                        I = pd.DatetimeIndex(I)
+                    #I = I.dt.tz_convert('EST')
+                    I = I.tz_convert('EST')
                     I = pd.DatetimeIndex(I)
                     I.name = 'datetime'
                     df = df.set_index(I)
                 except Exception as E:
                     I = df.index
-                    I = I.tz_convert('EST')
-                    I = pd.DatetimeIndex(I)
+                    if not isinstance(I, pd.DatetimeIndex) and not isinstance(I.values[0], pd._libs.tslib.Timestamp):
+                        I = pd.DatetimeIndex(I)
                     I.name = 'datetime'
                     df = df.set_index(I)
+
+        # Make index pd.Datetime!
+        if "datetime" in df.columns:
+            I = pd.to_datetime(df.datetime, utc=True)
+            I = I.dt.tz_convert(pytz.timezone('US/Eastern'))
+            #I = pd.DatetimeIndex(I, tz=pytz.timezone('US/Eastern'))
+            I.name = 'datetime'
+            df = df.drop(columns='datetime').set_index(I)
+        else:
+            if df.index.name != "datetime":
+                print("Index not datetime")
+                klugey_datetime_correction(self)
+            if not hasattr(df.index, 'day'):
+                print("Index does not have day!")
+                klugey_datetime_correction(self)
 
         # Determine tetrode type based on user settings
         if continuous_explode is None:
@@ -452,6 +562,8 @@ class ExperimateLogger:
         if modify_self:
             self.df = df
         else:
+            if df is None:
+                raise ValueError("Uh oh something happened")
             return df
 
     # EASIER TO READ TABLE GENERATION
@@ -521,8 +633,8 @@ class ExperimateLogger:
         ## ---------------------------------
         # Create the depth
         tetrodeAdjustments.loc[:,'depth']     = tetrodeAdjustments.groupby('tetrode').turns.cumsum()
-        tetrodeAdjustments.loc[:,'depth_old'] = tetrodeAdjustments.loc[:,'depth'] * (0.25)/(0.3175)
-        tetrodeAdjustments.loc[:,'depth_mm']  = (tetrodeAdjustments.loc[:,'depth']) / (4 * 12)
+        tetrodeAdjustments.loc[:,'depth_old'] = tetrodeAdjustments.loc[:,'depth'] * (0.20)/(0.3175)
+        tetrodeAdjustments.loc[:,'depth_mm']  = (tetrodeAdjustments.loc[:,'depth']) / self.get_turns_per_mm() / 12 
         predictions = [self.prediction(tetrode, tetrodeAdjustments.loc[tetrodeAdjustments.tetrode==tetrode,'depth']) 
                       for tetrode in tetrodeAdjustments.tetrode]
         # Add predictions
@@ -564,6 +676,7 @@ class ExperimateLogger:
             # B. Reindex by the ordinal position within group per tetrode
             count_ordinal = lambda x : pd.Series(np.arange(len(x))+1, index=x.index)
             data = data.sort_values(['tetrode','datetime'])
+            data.drop( data[data.tetrode.isnull()].index, inplace=True)
             ordinals = pd.DataFrame(data.groupby('tetrode').apply(count_ordinal))
             ordinals.set_index(data.index, inplace=True)
             data['adjustment'] = ordinals
@@ -723,6 +836,7 @@ def webhook():
     print(f'Intent={intent}', file=sys.stderr)
     print(f'---------------', file=sys.stderr)
 
+
     # Default text to respond with unless modified
     fulfillmentText = req.get('queryResult').get('fulfillmentText')
 
@@ -759,7 +873,7 @@ def webhook():
     elif intent == "change-tetrode":
         EL.entry_adjust_tetrode('down', Elogger.get_parameter(req, 'tetrode'), 0)
     elif intent == "get-depth":
-        fulfillmentText = EL.get_depth(*Elogger.get_parameters(req, ['tetrode', 'depth_type']))
+        fulfillmentText = EL.get_depth(*Elogger.get_parameters(req, ['tetrode', 'screw_type']))
     elif intent == "set-area":
         fulfillmentText = EL.entry_set_area(*Elogger.get_parameters(req, ['area', 'tetrode']))
     elif intent == "set-time":
@@ -780,6 +894,13 @@ def webhook():
 def projects():
     #return app.send_static_file('/'.join((os.getcwd(),'pretty.html')))
     return app.send_static_file('pretty.html')
+
+@app.route('/depths', methods=['GET'])
+def showdepth():
+    #return app.send_static_file('/'.join((os.getcwd(),'pretty.html')))
+    EL.display_depth()
+    message = app.send_static_file('depths.svg')
+    return message
                                                                                
                                                                                
 #  _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ 
@@ -792,9 +913,16 @@ if __name__ == "__main__":
     path = '/home/ryoung/GoogleAPI/myproj.json'
     scope = ['https://www.googleapis.com/auth/spreadsheets']
     credentials = ServiceAccountCredentials.from_json_keyfile_name(path, scope)
-    url = 'https://docs.google.com/spreadsheets/d/1ho9GtnpfkY0KCpiy5HUSVQA0yqIL_-UyCWAUwJgY1jE/edit?usp=sharing'
+    url_configuration_file = 'RY20.conf' # File with url to the google sheet of interest
+    with open(url_configuration_file, 'r') as File:
+        url = File.read()
 
     # Use that to setup an ExperimateLogger
     import experimate_webserver
-    EL = experimate_webserver.ExperimateLogger(credentials=credentials, title='', key='', url=url, log_pretty_table=False)
+    EL = experimate_webserver.ExperimateLogger(credentials=credentials,
+                                               title='', key='', url=url,
+                                               log_pretty_table=False,
+                                               screw_type='openefizz',
+                                               const_depth_mm=-0.4)
+    df = EL.df
     app.run()
