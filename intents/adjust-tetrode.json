@@ -6,14 +6,17 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [
         {
           "id": "5768dee9-f3d0-48d2-8565-5b7cc382d8a9",
+          "name": "tetrode",
           "required": true,
           "dataType": "@sys.number-integer",
-          "name": "tetrode",
           "value": "$tetrode",
+          "defaultValue": "",
+          "isList": true,
           "prompts": [
             {
               "lang": "en",
@@ -23,28 +26,30 @@
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": true
+          "outputDialogContexts": []
         },
         {
           "id": "b9faf7e3-e110-42d1-94a7-c43eb4c49150",
+          "name": "intent",
           "required": false,
           "dataType": "@sys.any",
-          "name": "intent",
           "value": "adjust-tetrode",
+          "defaultValue": "adjust-tetrode",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "adjust-tetrode",
-          "isList": false
+          "outputDialogContexts": []
         },
         {
           "id": "d992ec57-0dd1-4c9d-8aa8-9d66bab1ac47",
+          "name": "turns",
           "required": true,
           "dataType": "@sys.number",
-          "name": "turns",
           "value": "$turns",
+          "defaultValue": "",
+          "isList": false,
           "prompts": [
             {
               "lang": "en",
@@ -54,15 +59,16 @@
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": false
+          "outputDialogContexts": []
         },
         {
           "id": "3a67d505-d274-40aa-bcdc-5b1f74d2de65",
+          "name": "direction",
           "required": true,
           "dataType": "@sys.any",
-          "name": "direction",
           "value": "$direction",
+          "defaultValue": "down",
+          "isList": false,
           "prompts": [
             {
               "lang": "en",
@@ -76,21 +82,21 @@
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "down",
-          "isList": false
+          "outputDialogContexts": []
         }
       ],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
-          "condition": "",
           "speech": [
             "K, turning $turns $direction on $tetrode",
             "K, $direction $turns for $tetrode",
             "direction \u003d $direction, tetrode \u003d $tetrode, turns \u003d $turns"
-          ]
+          ],
+          "condition": ""
         }
       ],
       "defaultResponsePlatforms": {

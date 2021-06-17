@@ -8,13 +8,14 @@
       },
       {
         "text": "too much ripple on references",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -26,13 +27,14 @@
       },
       {
         "text": "quiet",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -44,13 +46,14 @@
       },
       {
         "text": "it\u0027s quiet",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -62,13 +65,14 @@
       },
       {
         "text": "possibly in callosum",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -80,13 +84,14 @@
       },
       {
         "text": "possibly a bursting pyramidal",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -98,13 +103,14 @@
       },
       {
         "text": "2 or 3 cells on 61",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -117,6 +123,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -129,6 +136,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -140,13 +148,14 @@
       },
       {
         "text": "large increase in firing",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -158,13 +167,14 @@
       },
       {
         "text": "quiet to cell firing",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -176,13 +186,14 @@
       },
       {
         "text": "light cell firing background",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -194,13 +205,14 @@
       },
       {
         "text": "heard it maybe enter the brain and slightly higher background brain sounds",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -213,6 +225,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -225,6 +238,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -236,13 +250,14 @@
       },
       {
         "text": "possible light pitter patter of cell firing background",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -255,6 +270,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -266,13 +282,14 @@
       },
       {
         "text": "large increase in neural firing. At least 2 cells.",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -284,13 +301,14 @@
       },
       {
         "text": "49 may be immovable. Acrylate glue may have gotten onto it when gluig his cone back on after surgery a few nights ago.",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -302,13 +320,14 @@
       },
       {
         "text": "slight increase in cell firing",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -320,13 +339,14 @@
       },
       {
         "text": "broke into large cluster",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -339,6 +359,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -350,13 +371,14 @@
       },
       {
         "text": "possible increase in sounds, but very quite",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -368,13 +390,14 @@
       },
       {
         "text": "officially hear cell firing",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -386,13 +409,14 @@
       },
       {
         "text": "extremely quiet. possibly not in?",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -404,13 +428,14 @@
       },
       {
         "text": ". 49 may be immovable. Acrylate glue may have gotten onto it when gluig his cone back on after surgery a few nights ago.",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -423,6 +448,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -434,13 +460,14 @@
       },
       {
         "text": "large increase in cell firing",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -453,6 +480,7 @@
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -465,6 +493,7 @@
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -476,13 +505,14 @@
       },
       {
         "text": "4 sparse cells huge signal",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -494,13 +524,14 @@
       },
       {
         "text": "i see new cells here",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -512,13 +543,14 @@
       },
       {
         "text": "cell firing may have been due to commutator noise",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -531,6 +563,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -542,13 +575,14 @@
       },
       {
         "text": "the tetrode is broken",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -560,13 +594,14 @@
       },
       {
         "text": "silence",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -578,13 +613,14 @@
       },
       {
         "text": "my nut-piece is wobbling.",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -596,13 +632,14 @@
       },
       {
         "text": "sounds like delta waves",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -614,13 +651,14 @@
       },
       {
         "text": "there are 50 billion cells here.",
-        "alias": "note",
         "meta": "@sys.any",
+        "alias": "note",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   }
 ]

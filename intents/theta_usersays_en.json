@@ -9,6 +9,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -20,13 +21,14 @@
       },
       {
         "text": "plus",
-        "alias": "magnitude",
         "meta": "@sys.any",
+        "alias": "magnitude",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -39,6 +41,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -51,6 +54,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -63,6 +67,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -74,13 +79,14 @@
       },
       {
         "text": "plus plus plus",
-        "alias": "magnitude",
         "meta": "@sys.any",
+        "alias": "magnitude",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -92,13 +98,14 @@
       },
       {
         "text": "minus minus minus",
-        "alias": "magnitude",
         "meta": "@sys.any",
+        "alias": "magnitude",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -110,13 +117,14 @@
       },
       {
         "text": "plus plus",
-        "alias": "magnitude",
         "meta": "@sys.any",
+        "alias": "magnitude",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -129,6 +137,7 @@
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   }
 ]

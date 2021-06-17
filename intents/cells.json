@@ -6,14 +6,17 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [
         {
           "id": "18df5cd8-89fb-40ba-8e63-87d304340ced",
+          "name": "magnitude",
           "required": true,
           "dataType": "@sys.number",
-          "name": "magnitude",
           "value": "$magnitude",
+          "defaultValue": "",
+          "isList": false,
           "prompts": [
             {
               "lang": "en",
@@ -23,32 +26,35 @@
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": false
+          "outputDialogContexts": []
         },
         {
           "id": "d123464b-4f87-4731-842b-1ddc4b8aa788",
+          "name": "intent",
           "required": false,
           "dataType": "@sys.any",
-          "name": "intent",
           "value": "cells",
+          "defaultValue": "cells",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "cells",
-          "isList": false
+          "outputDialogContexts": []
         }
       ],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
-          "condition": "",
-          "speech": "cells \u003d $magnitude"
+          "speech": [
+            "cells \u003d $magnitude"
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],

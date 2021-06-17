@@ -1,6 +1,6 @@
 [
   {
-    "id": "4e119d38-d9d6-42d2-bb6b-c86e3a685307",
+    "id": "dc5befb4-5133-4591-8c34-1c0ac5551154",
     "data": [
       {
         "text": "time.\u003d ",
@@ -8,17 +8,18 @@
       },
       {
         "text": "5pm on June 2",
-        "alias": "time",
         "meta": "@sys.date-time",
+        "alias": "time",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "407edaad-eb0f-4766-9f3a-4bf31cd697b1",
+    "id": "4fb72ff1-31af-4ffd-bbf6-b08ee0277f9e",
     "data": [
       {
         "text": "set time to ",
@@ -26,17 +27,18 @@
       },
       {
         "text": "March 23",
-        "alias": "time",
         "meta": "@sys.date-time",
+        "alias": "time",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "d1232f85-5a96-497a-9b7b-f7a586fbd5e7",
+    "id": "b5f36b7f-3551-4519-9fed-7c15ac535067",
     "data": [
       {
         "text": "time is ",
@@ -44,17 +46,18 @@
       },
       {
         "text": "2:00pm on May 6",
-        "alias": "time",
         "meta": "@sys.date-time",
+        "alias": "time",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "8e58c061-2eb8-437a-aeb1-647896753933",
+    "id": "00c19175-f1cb-4a87-8bea-e0e9561067d9",
     "data": [
       {
         "text": "time manual is ",
@@ -62,17 +65,18 @@
       },
       {
         "text": "10:00 pm on July 6, 2020",
-        "alias": "time",
         "meta": "@sys.date-time",
+        "alias": "time",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "f7147179-21fb-495e-aa97-8ae3f5c45c3a",
+    "id": "0798fa1b-d79f-4dd0-862e-0fcbfa66dedf",
     "data": [
       {
         "text": "time ",
@@ -80,8 +84,8 @@
       },
       {
         "text": "manual",
-        "alias": "mode",
         "meta": "@sys.any",
+        "alias": "mode",
         "userDefined": true
       },
       {
@@ -90,17 +94,18 @@
       },
       {
         "text": "2020/08/02",
-        "alias": "time",
         "meta": "@sys.date-time",
+        "alias": "time",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "77c4b023-7d0f-438d-bad8-333f574db180",
+    "id": "36739d7b-4c0d-472f-83f0-f4d8eeae7d11",
     "data": [
       {
         "text": "time ",
@@ -108,13 +113,52 @@
       },
       {
         "text": "auto",
-        "alias": "mode",
         "meta": "@sys.any",
+        "alias": "mode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "79765437-3055-4f23-a215-4350693da9a3",
+    "data": [
+      {
+        "text": "set time ",
+        "userDefined": false
+      },
+      {
+        "text": "auto",
+        "meta": "@sys.any",
+        "alias": "mode",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2044fb59-692a-4f54-87c9-28037abb5770",
+    "data": [
+      {
+        "text": "set time mode ",
+        "userDefined": false
+      },
+      {
+        "text": "auto",
+        "meta": "@sys.any",
+        "alias": "mode",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
     "updated": 0
   }
 ]

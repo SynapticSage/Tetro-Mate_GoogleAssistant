@@ -6,42 +6,50 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [
         {
           "id": "d7ea62cc-f5da-424f-b1bf-97ea7794943c",
+          "name": "marker",
           "required": true,
           "dataType": "@sys.any",
-          "name": "marker",
           "value": "$marker",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": false
+          "outputDialogContexts": []
         },
         {
           "id": "5dac4663-c06a-445e-a651-41418b69cc8e",
+          "name": "intent",
           "required": false,
           "dataType": "@sys.any",
-          "name": "intent",
           "value": "marker",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": false
+          "outputDialogContexts": []
         }
       ],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
-          "condition": "",
-          "speech": "Lowering session marker \u003d $marker"
+          "speech": [
+            "Lowering session marker \u003d $marker"
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],

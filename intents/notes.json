@@ -6,14 +6,17 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [
         {
           "id": "892db501-1819-4ccb-8238-453f8c2c20ac",
+          "name": "note",
           "required": true,
           "dataType": "@sys.any",
-          "name": "note",
           "value": "$note",
+          "defaultValue": "",
+          "isList": false,
           "prompts": [
             {
               "lang": "en",
@@ -23,35 +26,36 @@
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": false
+          "outputDialogContexts": []
         },
         {
           "id": "414a8c68-f58c-4953-9a5b-f7408c3789b8",
+          "name": "intent",
           "required": false,
           "dataType": "@sys.any",
-          "name": "intent",
           "value": "notes",
+          "defaultValue": "notes",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "notes",
-          "isList": false
+          "outputDialogContexts": []
         }
       ],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
-          "condition": "",
           "speech": [
             "Got it. $note taken",
             "Okay, $note recorded"
-          ]
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],

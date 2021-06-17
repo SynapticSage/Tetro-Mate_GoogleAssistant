@@ -6,14 +6,17 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [
         {
           "id": "d7f8740b-a6e1-4dff-957f-ba0dd35ad634",
+          "name": "magnitude",
           "required": true,
           "dataType": "@sys.any",
-          "name": "magnitude",
           "value": "$magnitude",
+          "defaultValue": "",
+          "isList": false,
           "prompts": [
             {
               "lang": "en",
@@ -23,32 +26,35 @@
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": false
+          "outputDialogContexts": []
         },
         {
           "id": "e87ed7aa-59e5-4a3f-a590-b9a5f10789bc",
+          "name": "intent",
           "required": false,
           "dataType": "@sys.any",
-          "name": "intent",
           "value": "theta",
+          "defaultValue": "theta",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "theta",
-          "isList": false
+          "outputDialogContexts": []
         }
       ],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
-          "condition": "",
-          "speech": "Theta \u003d $magnitude"
+          "speech": [
+            "Theta \u003d $magnitude"
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],

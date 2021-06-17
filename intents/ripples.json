@@ -6,56 +6,64 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [
         {
           "id": "0690507b-15d5-43ab-9fa4-9c2e4f48eb15",
+          "name": "intent",
           "required": false,
           "dataType": "@sys.any",
-          "name": "intent",
           "value": "ripples",
+          "defaultValue": "ripples",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "ripples",
-          "isList": false
+          "outputDialogContexts": []
         },
         {
           "id": "b9d5de4d-a1fb-4f7f-b2d7-6f67a2d4e20a",
+          "name": "magnitude",
           "required": false,
           "dataType": "@sys.number",
-          "name": "magnitude",
           "value": "$magnitude",
+          "defaultValue": "0",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "0",
-          "isList": false
+          "outputDialogContexts": []
         },
         {
           "id": "179b91cf-2fb2-45b5-86ff-85ce4f462657",
+          "name": "modification",
           "required": false,
           "dataType": "@sys.any",
-          "name": "modification",
           "value": "$modification",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": false
+          "outputDialogContexts": []
         }
       ],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
-          "condition": "",
-          "speech": "ripples \u003d $magnitude"
+          "speech": [
+            "ripples \u003d $magnitude"
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],

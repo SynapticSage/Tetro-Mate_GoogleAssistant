@@ -6,14 +6,17 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "113c02d3-105b-49c2-bfe9-22a777cc20a9",
+          "id": "e3b0a3ff-d9a4-4d54-912c-2c5df92dc850",
+          "name": "area",
           "required": true,
           "dataType": "@sys.any",
-          "name": "area",
           "value": "$area",
+          "defaultValue": "",
+          "isList": false,
           "prompts": [
             {
               "lang": "en",
@@ -23,49 +26,54 @@
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": false
+          "outputDialogContexts": []
         },
         {
-          "id": "33ee719d-a7b7-4850-8eac-e07ccab25f75",
+          "id": "4885ccd8-feb6-4133-ab7d-8c355636667c",
+          "name": "tetrode",
           "required": false,
           "dataType": "@sys.number",
-          "name": "tetrode",
           "value": "$tetrode",
+          "defaultValue": "-1",
+          "isList": true,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "-1",
-          "isList": true
+          "outputDialogContexts": []
         },
         {
-          "id": "69425ebf-bd76-4d28-9b38-d7e5b382fe8e",
+          "id": "da8c17b0-b924-49e2-b2e6-d90705644128",
+          "name": "intent",
           "required": false,
           "dataType": "@sys.any",
-          "name": "intent",
           "value": "set-area",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": false
+          "outputDialogContexts": []
         }
       ],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
-          "condition": "",
-          "speech": "Got it, area \u003d $brain_area"
+          "speech": [
+            "Got it, area \u003d $area"
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],

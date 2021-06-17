@@ -6,56 +6,64 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "f346a551-8c5c-481f-b282-f6f3caa0d6de",
+          "id": "17ce5809-69f9-4223-b280-16e2d6c9a927",
+          "name": "intent",
           "required": false,
           "dataType": "@sys.any",
-          "name": "intent",
           "value": "get-depth",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": false
+          "outputDialogContexts": []
         },
         {
-          "id": "841826a0-7944-4a46-9f97-03ff8992a85b",
+          "id": "df91ae0b-b1b7-42a5-b068-2bf570e79072",
+          "name": "tetrode",
           "required": false,
           "dataType": "@sys.number-integer",
-          "name": "tetrode",
           "value": "$tetrode",
+          "defaultValue": "-1",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "-1",
-          "isList": false
+          "outputDialogContexts": []
         },
         {
-          "id": "4a7f8f2c-2f80-40be-9ba9-30b65d019613",
+          "id": "4064d20a-c33f-452f-ace9-ce347ec86673",
+          "name": "screw_type",
           "required": false,
           "dataType": "@sys.any",
-          "name": "depth_type",
-          "value": "$depth_type",
+          "value": "$screw_type",
+          "defaultValue": "-1",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "new",
-          "isList": false
+          "outputDialogContexts": []
         }
       ],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
-          "condition": "",
-          "speech": "Error, response not returned."
+          "speech": [
+            "Error, response not returned."
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],

@@ -6,26 +6,36 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "2d0bb2b5-b2bb-429f-b86b-41fbbc6fc6c5",
-          "required": false,
-          "dataType": "@sys.number-integer",
+          "id": "ce7bfb72-28bd-4c65-a477-56a229e5a993",
           "name": "tetrode",
+          "required": true,
+          "dataType": "@sys.number-integer",
           "value": "$tetrode",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "which tetrode?"
+            }
+          ],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": false
+          "outputDialogContexts": []
         },
         {
-          "id": "be512370-8f19-4b6c-bfb3-d7bbd2596d68",
+          "id": "f49a556e-4229-4fb9-8aa7-c60fb3de5750",
+          "name": "channel",
           "required": true,
           "dataType": "@sys.number-integer",
-          "name": "channel",
           "value": "$channel",
+          "defaultValue": "",
+          "isList": true,
           "prompts": [
             {
               "lang": "en",
@@ -35,36 +45,40 @@
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": true
+          "outputDialogContexts": []
         },
         {
-          "id": "9f2dcceb-ea5c-4db0-918b-01e97123b448",
+          "id": "9d829662-fae4-43e9-a260-4cdebbf2431d",
+          "name": "intent",
           "required": false,
           "dataType": "@sys.any",
-          "name": "intent",
           "value": "dead",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": false
+          "outputDialogContexts": []
         }
       ],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
-          "condition": "",
-          "speech": []
+          "speech": [
+            "got it,  tetrode $tetrode channels $channel"
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],

@@ -1,6 +1,5 @@
 [
   {
-    "id": "e3b30d79-4783-4169-9d44-09ad432a984f",
     "data": [
       {
         "text": "delta ",
@@ -8,17 +7,17 @@
       },
       {
         "text": "--",
-        "alias": "modification",
         "meta": "@sys.any",
+        "alias": "modification",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "43484cf9-de9e-40e3-8ed9-829877596c0a",
     "data": [
       {
         "text": "delta ",
@@ -26,13 +25,14 @@
       },
       {
         "text": "++",
-        "alias": "modification",
         "meta": "@sys.any",
+        "alias": "modification",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -44,13 +44,14 @@
       },
       {
         "text": "2",
-        "alias": "magnitude",
         "meta": "@sys.number",
+        "alias": "magnitude",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -62,13 +63,14 @@
       },
       {
         "text": "-1",
-        "alias": "magnitude",
         "meta": "@sys.number",
+        "alias": "magnitude",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -80,13 +82,14 @@
       },
       {
         "text": "24",
-        "alias": "magnitude",
         "meta": "@sys.number",
+        "alias": "magnitude",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -99,6 +102,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -111,6 +115,7 @@
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -122,13 +127,14 @@
       },
       {
         "text": "9",
-        "alias": "magnitude",
         "meta": "@sys.number",
+        "alias": "magnitude",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   }
 ]

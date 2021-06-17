@@ -8,13 +8,14 @@
       },
       {
         "text": "1",
-        "alias": "magnitude",
         "meta": "@sys.number",
+        "alias": "magnitude",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -26,13 +27,14 @@
       },
       {
         "text": "0",
-        "alias": "magnitude",
         "meta": "@sys.number",
+        "alias": "magnitude",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -44,13 +46,14 @@
       },
       {
         "text": "2",
-        "alias": "magnitude",
         "meta": "@sys.number",
+        "alias": "magnitude",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -62,13 +65,14 @@
       },
       {
         "text": "3",
-        "alias": "magnitude",
         "meta": "@sys.number",
+        "alias": "magnitude",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -80,13 +84,14 @@
       },
       {
         "text": "3",
-        "alias": "magnitude",
         "meta": "@sys.number",
+        "alias": "magnitude",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -99,6 +104,7 @@
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -106,8 +112,8 @@
     "data": [
       {
         "text": "25",
-        "alias": "magnitude",
         "meta": "@sys.number",
+        "alias": "magnitude",
         "userDefined": false
       },
       {
@@ -117,6 +123,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -129,6 +136,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -140,13 +148,14 @@
       },
       {
         "text": "50",
-        "alias": "magnitude",
         "meta": "@sys.number",
+        "alias": "magnitude",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   }
 ]

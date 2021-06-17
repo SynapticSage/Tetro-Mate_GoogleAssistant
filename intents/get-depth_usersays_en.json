@@ -8,13 +8,14 @@
       },
       {
         "text": "26",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -26,13 +27,14 @@
       },
       {
         "text": "26",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -44,13 +46,14 @@
       },
       {
         "text": "27",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -62,13 +65,14 @@
       },
       {
         "text": "22",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -80,13 +84,14 @@
       },
       {
         "text": "10",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -99,6 +104,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -111,6 +117,7 @@
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -122,13 +129,14 @@
       },
       {
         "text": "one",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -140,13 +148,14 @@
       },
       {
         "text": "one",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 2,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -158,13 +167,14 @@
       },
       {
         "text": "one",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 2,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -176,13 +186,14 @@
       },
       {
         "text": "one",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -194,8 +205,8 @@
       },
       {
         "text": "fifty five",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -205,6 +216,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -216,8 +228,8 @@
       },
       {
         "text": "sixty",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -227,6 +239,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -238,8 +251,8 @@
       },
       {
         "text": "32",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -248,8 +261,8 @@
       },
       {
         "text": "new",
-        "alias": "depth_type",
         "meta": "@sys.any",
+        "alias": "screw_type",
         "userDefined": true
       },
       {
@@ -259,6 +272,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -270,8 +284,8 @@
       },
       {
         "text": "66",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -280,8 +294,8 @@
       },
       {
         "text": "old",
-        "alias": "depth_type",
         "meta": "@sys.any",
+        "alias": "screw_type",
         "userDefined": true
       },
       {
@@ -291,6 +305,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -302,8 +317,8 @@
       },
       {
         "text": "66",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -312,8 +327,8 @@
       },
       {
         "text": "new",
-        "alias": "depth_type",
         "meta": "@sys.any",
+        "alias": "screw_type",
         "userDefined": true
       },
       {
@@ -323,6 +338,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -334,8 +350,8 @@
       },
       {
         "text": "66",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -345,6 +361,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -357,6 +374,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -369,6 +387,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -380,8 +399,8 @@
       },
       {
         "text": "10",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -391,6 +410,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -402,13 +422,14 @@
       },
       {
         "text": "9",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -421,6 +442,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -433,6 +455,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   }
 ]

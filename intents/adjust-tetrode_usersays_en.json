@@ -1,11 +1,10 @@
 [
   {
-    "id": "dd4a1f79-c9d4-43fe-ba05-e2ad5e0b6280",
     "data": [
       {
         "text": "7",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -14,8 +13,8 @@
       },
       {
         "text": "6",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -24,8 +23,8 @@
       },
       {
         "text": "10",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -34,8 +33,8 @@
       },
       {
         "text": "14",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -44,8 +43,8 @@
       },
       {
         "text": "20",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -54,8 +53,8 @@
       },
       {
         "text": "30",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -64,8 +63,8 @@
       },
       {
         "text": "31",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -74,8 +73,8 @@
       },
       {
         "text": "32",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -84,8 +83,8 @@
       },
       {
         "text": "33",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -94,8 +93,8 @@
       },
       {
         "text": "40",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -104,8 +103,8 @@
       },
       {
         "text": "55",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -114,22 +113,22 @@
       },
       {
         "text": "70",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "c0f47f1e-e276-4d60-aab7-62c24f2a2e00",
     "data": [
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -138,8 +137,8 @@
       },
       {
         "text": "up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -148,8 +147,8 @@
       },
       {
         "text": "11",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -158,8 +157,8 @@
       },
       {
         "text": "22",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -168,8 +167,8 @@
       },
       {
         "text": "25",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -178,8 +177,8 @@
       },
       {
         "text": "6",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -188,8 +187,8 @@
       },
       {
         "text": "15",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -198,8 +197,8 @@
       },
       {
         "text": "21",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -208,17 +207,17 @@
       },
       {
         "text": "9",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "78136f08-ba25-4278-87fc-c09bc695cab7",
     "data": [
       {
         "text": "Turn ",
@@ -226,8 +225,8 @@
       },
       {
         "text": "5",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -236,8 +235,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -246,8 +245,8 @@
       },
       {
         "text": "10",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -256,8 +255,8 @@
       },
       {
         "text": "40",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -266,8 +265,8 @@
       },
       {
         "text": "50",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -276,8 +275,8 @@
       },
       {
         "text": "60",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -286,8 +285,8 @@
       },
       {
         "text": "70",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -296,8 +295,8 @@
       },
       {
         "text": "80",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -306,8 +305,8 @@
       },
       {
         "text": "51",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -316,8 +315,8 @@
       },
       {
         "text": "45",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -326,8 +325,8 @@
       },
       {
         "text": "2",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -336,8 +335,8 @@
       },
       {
         "text": "6",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -346,22 +345,22 @@
       },
       {
         "text": "10",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "6cc2572b-20ec-402b-8e91-2050f68d69fb",
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -370,8 +369,8 @@
       },
       {
         "text": "3",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -380,8 +379,8 @@
       },
       {
         "text": "13",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -390,8 +389,8 @@
       },
       {
         "text": "12",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -400,22 +399,22 @@
       },
       {
         "text": "9",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "7ae166a4-9d45-4246-9adc-67dca113a34f",
     "data": [
       {
         "text": "up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -424,8 +423,8 @@
       },
       {
         "text": "15",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -434,8 +433,8 @@
       },
       {
         "text": "24",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -444,8 +443,8 @@
       },
       {
         "text": "2",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -454,22 +453,22 @@
       },
       {
         "text": "90",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "7f155b6a-5f68-4973-9ac9-bb11a724ac59",
     "data": [
       {
         "text": "12",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -478,8 +477,8 @@
       },
       {
         "text": "1",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -488,8 +487,8 @@
       },
       {
         "text": "5",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -498,22 +497,22 @@
       },
       {
         "text": "37",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "61201087-be3a-4374-8bd2-c60efff9cc55",
     "data": [
       {
         "text": "Up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -522,8 +521,8 @@
       },
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -532,8 +531,8 @@
       },
       {
         "text": "10",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -542,8 +541,8 @@
       },
       {
         "text": "14",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -552,22 +551,22 @@
       },
       {
         "text": "9",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "367b5d69-6ec6-453d-b6bd-186d07d24da8",
     "data": [
       {
         "text": "Down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -576,8 +575,8 @@
       },
       {
         "text": "5",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -586,8 +585,8 @@
       },
       {
         "text": "23",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -596,8 +595,8 @@
       },
       {
         "text": "21",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -606,13 +605,14 @@
       },
       {
         "text": "16",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -620,8 +620,8 @@
     "data": [
       {
         "text": "1",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -630,8 +630,8 @@
       },
       {
         "text": "up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -640,13 +640,14 @@
       },
       {
         "text": "24",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -654,8 +655,8 @@
     "data": [
       {
         "text": "1",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -664,8 +665,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -674,13 +675,14 @@
       },
       {
         "text": "25",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -688,8 +690,8 @@
     "data": [
       {
         "text": "-2",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -698,13 +700,14 @@
       },
       {
         "text": "16",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -712,8 +715,8 @@
     "data": [
       {
         "text": "-2",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -722,13 +725,14 @@
       },
       {
         "text": "17",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -740,8 +744,8 @@
       },
       {
         "text": "up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -750,8 +754,8 @@
       },
       {
         "text": "2",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -760,13 +764,14 @@
       },
       {
         "text": "16",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -778,8 +783,8 @@
       },
       {
         "text": "up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -788,8 +793,8 @@
       },
       {
         "text": "2",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -798,13 +803,14 @@
       },
       {
         "text": "17",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -812,8 +818,8 @@
     "data": [
       {
         "text": "up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -822,8 +828,8 @@
       },
       {
         "text": "1",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -832,13 +838,14 @@
       },
       {
         "text": "28",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -846,8 +853,8 @@
     "data": [
       {
         "text": "up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -856,8 +863,8 @@
       },
       {
         "text": "2",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -866,13 +873,14 @@
       },
       {
         "text": "31",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -880,8 +888,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -890,8 +898,8 @@
       },
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -900,13 +908,14 @@
       },
       {
         "text": "59",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -914,8 +923,8 @@
     "data": [
       {
         "text": "23",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -924,13 +933,14 @@
       },
       {
         "text": "1",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -938,8 +948,8 @@
     "data": [
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -948,13 +958,14 @@
       },
       {
         "text": "7",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -962,8 +973,8 @@
     "data": [
       {
         "text": "Up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -972,8 +983,8 @@
       },
       {
         "text": "10",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -982,13 +993,14 @@
       },
       {
         "text": "6",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -996,8 +1008,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -1006,8 +1018,8 @@
       },
       {
         "text": "25",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1016,13 +1028,14 @@
       },
       {
         "text": "2",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1030,8 +1043,8 @@
     "data": [
       {
         "text": "Up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -1040,8 +1053,8 @@
       },
       {
         "text": "5",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1050,13 +1063,14 @@
       },
       {
         "text": "10",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1064,8 +1078,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -1074,8 +1088,8 @@
       },
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1084,13 +1098,14 @@
       },
       {
         "text": "8",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1098,8 +1113,8 @@
     "data": [
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1108,8 +1123,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -1118,13 +1133,14 @@
       },
       {
         "text": "63",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1132,8 +1148,8 @@
     "data": [
       {
         "text": "three",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1142,8 +1158,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -1152,13 +1168,14 @@
       },
       {
         "text": "24",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1166,8 +1183,8 @@
     "data": [
       {
         "text": "three",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1176,8 +1193,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -1186,13 +1203,14 @@
       },
       {
         "text": "40",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1200,8 +1218,8 @@
     "data": [
       {
         "text": "three",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1210,8 +1228,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -1220,13 +1238,14 @@
       },
       {
         "text": "51",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1234,8 +1253,8 @@
     "data": [
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1244,8 +1263,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -1254,13 +1273,14 @@
       },
       {
         "text": "53",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1268,8 +1288,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -1278,8 +1298,8 @@
       },
       {
         "text": "9",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1288,13 +1308,14 @@
       },
       {
         "text": "62",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1306,8 +1327,8 @@
       },
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1316,8 +1337,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -1326,13 +1347,14 @@
       },
       {
         "text": "46",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1340,8 +1362,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -1350,8 +1372,8 @@
       },
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1360,13 +1382,14 @@
       },
       {
         "text": "47",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1374,8 +1397,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -1384,8 +1407,8 @@
       },
       {
         "text": "3",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1394,13 +1417,14 @@
       },
       {
         "text": "47",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1412,8 +1436,8 @@
       },
       {
         "text": "9",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1422,13 +1446,14 @@
       },
       {
         "text": "48",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1440,8 +1465,8 @@
       },
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -1450,8 +1475,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -1460,13 +1485,14 @@
       },
       {
         "text": "50",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1474,8 +1500,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -1484,8 +1510,8 @@
       },
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1494,13 +1520,14 @@
       },
       {
         "text": "51",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1508,8 +1535,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -1518,8 +1545,8 @@
       },
       {
         "text": "3",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -1528,13 +1555,14 @@
       },
       {
         "text": "51",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1542,8 +1570,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -1552,8 +1580,8 @@
       },
       {
         "text": "3",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -1571,13 +1599,14 @@
       },
       {
         "text": "51",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1585,8 +1614,8 @@
     "data": [
       {
         "text": "lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -1595,8 +1624,8 @@
       },
       {
         "text": "3",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1605,13 +1634,14 @@
       },
       {
         "text": "44",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1619,8 +1649,8 @@
     "data": [
       {
         "text": "lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -1629,8 +1659,8 @@
       },
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1639,13 +1669,14 @@
       },
       {
         "text": "45",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1653,8 +1684,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -1663,8 +1694,8 @@
       },
       {
         "text": "9",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1673,13 +1704,14 @@
       },
       {
         "text": "48",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1687,8 +1719,8 @@
     "data": [
       {
         "text": "lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -1697,8 +1729,8 @@
       },
       {
         "text": "six",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1707,13 +1739,14 @@
       },
       {
         "text": "42",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1725,8 +1758,8 @@
       },
       {
         "text": "three",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1735,8 +1768,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -1745,13 +1778,14 @@
       },
       {
         "text": "42",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1759,8 +1793,8 @@
     "data": [
       {
         "text": "lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -1769,8 +1803,8 @@
       },
       {
         "text": "zero",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1779,13 +1813,14 @@
       },
       {
         "text": "zero",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 3,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1793,8 +1828,8 @@
     "data": [
       {
         "text": "lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -1803,8 +1838,8 @@
       },
       {
         "text": "Zero",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -1813,13 +1848,14 @@
       },
       {
         "text": "zero",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1831,8 +1867,8 @@
       },
       {
         "text": "zero",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1841,8 +1877,8 @@
       },
       {
         "text": "zero",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -1851,13 +1887,14 @@
       },
       {
         "text": "lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1870,6 +1907,7 @@
     ],
     "isTemplate": false,
     "count": 3,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1882,6 +1920,7 @@
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1889,8 +1928,8 @@
     "data": [
       {
         "text": "0",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1899,8 +1938,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -1909,13 +1948,14 @@
       },
       {
         "text": "27",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1923,8 +1963,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -1933,8 +1973,8 @@
       },
       {
         "text": "0",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1943,13 +1983,14 @@
       },
       {
         "text": "27",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1962,6 +2003,7 @@
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -1969,8 +2011,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": false
       },
       {
@@ -1979,8 +2021,8 @@
       },
       {
         "text": "10",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -1989,13 +2031,14 @@
       },
       {
         "text": "2",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2007,8 +2050,8 @@
       },
       {
         "text": "zero",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2017,8 +2060,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2027,13 +2070,14 @@
       },
       {
         "text": "27",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2045,8 +2089,8 @@
       },
       {
         "text": "0",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2055,8 +2099,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2065,13 +2109,14 @@
       },
       {
         "text": "27",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2083,8 +2128,8 @@
       },
       {
         "text": "three",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2093,8 +2138,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2103,13 +2148,14 @@
       },
       {
         "text": "19",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2121,8 +2167,8 @@
       },
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2131,8 +2177,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2141,13 +2187,14 @@
       },
       {
         "text": "20",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2159,8 +2206,8 @@
       },
       {
         "text": "9",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2169,8 +2216,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2179,13 +2226,14 @@
       },
       {
         "text": "21",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2193,8 +2241,8 @@
     "data": [
       {
         "text": "three",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2203,8 +2251,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2213,13 +2261,14 @@
       },
       {
         "text": "20",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2231,8 +2280,8 @@
       },
       {
         "text": "9",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2241,8 +2290,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2251,13 +2300,14 @@
       },
       {
         "text": "22",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2269,8 +2319,8 @@
       },
       {
         "text": "9",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2279,8 +2329,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2289,13 +2339,14 @@
       },
       {
         "text": "423",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2307,8 +2358,8 @@
       },
       {
         "text": "9",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2317,8 +2368,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2327,13 +2378,14 @@
       },
       {
         "text": "23",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2345,8 +2397,8 @@
       },
       {
         "text": "9",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2355,8 +2407,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2365,13 +2417,14 @@
       },
       {
         "text": "24",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2379,8 +2432,8 @@
     "data": [
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2389,8 +2442,8 @@
       },
       {
         "text": "zero",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -2399,13 +2452,14 @@
       },
       {
         "text": "25",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2413,8 +2467,8 @@
     "data": [
       {
         "text": "0",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2423,8 +2477,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2433,13 +2487,14 @@
       },
       {
         "text": "18",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2447,8 +2502,8 @@
     "data": [
       {
         "text": "9",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -2457,8 +2512,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2467,13 +2522,14 @@
       },
       {
         "text": "18",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2485,8 +2541,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2495,8 +2551,8 @@
       },
       {
         "text": "0",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2505,13 +2561,14 @@
       },
       {
         "text": "27",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2519,8 +2576,8 @@
     "data": [
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2529,8 +2586,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2548,13 +2605,14 @@
       },
       {
         "text": "20",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2566,8 +2624,8 @@
       },
       {
         "text": "6",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       },
       {
@@ -2576,8 +2634,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2586,13 +2644,14 @@
       },
       {
         "text": "20",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2604,8 +2663,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2614,8 +2673,8 @@
       },
       {
         "text": "9",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2624,13 +2683,14 @@
       },
       {
         "text": "25",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2642,8 +2702,8 @@
       },
       {
         "text": "12",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2652,13 +2712,14 @@
       },
       {
         "text": "8",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2670,13 +2731,14 @@
       },
       {
         "text": "16",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2688,8 +2750,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2698,8 +2760,8 @@
       },
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -2708,13 +2770,14 @@
       },
       {
         "text": "8",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2726,8 +2789,8 @@
       },
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -2736,8 +2799,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2746,13 +2809,14 @@
       },
       {
         "text": "8",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2765,6 +2829,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2776,8 +2841,8 @@
       },
       {
         "text": "lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2786,8 +2851,8 @@
       },
       {
         "text": "12.34",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2796,13 +2861,14 @@
       },
       {
         "text": "1",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2814,8 +2880,8 @@
       },
       {
         "text": "raise",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2824,8 +2890,8 @@
       },
       {
         "text": "5",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2834,13 +2900,14 @@
       },
       {
         "text": "10",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2848,8 +2915,8 @@
     "data": [
       {
         "text": "23",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2858,8 +2925,8 @@
       },
       {
         "text": "up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2868,13 +2935,14 @@
       },
       {
         "text": "6",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2882,8 +2950,8 @@
     "data": [
       {
         "text": "23",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2892,8 +2960,8 @@
       },
       {
         "text": "up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2902,13 +2970,14 @@
       },
       {
         "text": "6",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2916,8 +2985,8 @@
     "data": [
       {
         "text": "9",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2926,8 +2995,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2936,13 +3005,14 @@
       },
       {
         "text": "5",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2954,8 +3024,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -2964,8 +3034,8 @@
       },
       {
         "text": "3",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -2974,13 +3044,14 @@
       },
       {
         "text": "12",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -2992,8 +3063,8 @@
       },
       {
         "text": "up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3002,8 +3073,8 @@
       },
       {
         "text": "9",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3012,13 +3083,14 @@
       },
       {
         "text": "13",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3030,8 +3102,8 @@
       },
       {
         "text": "4",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3040,8 +3112,8 @@
       },
       {
         "text": "up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3050,13 +3122,14 @@
       },
       {
         "text": "12",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3068,8 +3141,8 @@
       },
       {
         "text": "70",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3078,8 +3151,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3088,13 +3161,14 @@
       },
       {
         "text": "5",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3106,8 +3180,8 @@
       },
       {
         "text": "60",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3116,8 +3190,8 @@
       },
       {
         "text": "up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3126,13 +3200,14 @@
       },
       {
         "text": "2",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3144,8 +3219,8 @@
       },
       {
         "text": "up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3154,8 +3229,8 @@
       },
       {
         "text": "9",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3164,13 +3239,14 @@
       },
       {
         "text": "13",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3182,8 +3258,8 @@
       },
       {
         "text": "5",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3192,13 +3268,14 @@
       },
       {
         "text": "7",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3210,8 +3287,8 @@
       },
       {
         "text": "down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3220,8 +3297,8 @@
       },
       {
         "text": "234",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3230,13 +3307,14 @@
       },
       {
         "text": "43",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3244,8 +3322,8 @@
     "data": [
       {
         "text": "Raise",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3254,8 +3332,8 @@
       },
       {
         "text": "6.345",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3264,13 +3342,14 @@
       },
       {
         "text": "43",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3278,8 +3357,8 @@
     "data": [
       {
         "text": "Down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3288,8 +3367,8 @@
       },
       {
         "text": "3",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3298,13 +3377,14 @@
       },
       {
         "text": "2",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3312,8 +3392,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3322,8 +3402,8 @@
       },
       {
         "text": "seven",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3332,13 +3412,14 @@
       },
       {
         "text": "seven",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3346,8 +3427,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3356,8 +3437,8 @@
       },
       {
         "text": "7.7",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3366,13 +3447,14 @@
       },
       {
         "text": "50",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3380,8 +3462,8 @@
     "data": [
       {
         "text": "Up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3390,8 +3472,8 @@
       },
       {
         "text": "3.14",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3400,13 +3482,14 @@
       },
       {
         "text": "2",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3414,8 +3497,8 @@
     "data": [
       {
         "text": "Raise",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3424,8 +3507,8 @@
       },
       {
         "text": "10.23423",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3434,13 +3517,14 @@
       },
       {
         "text": "3",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3448,8 +3532,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3458,8 +3542,8 @@
       },
       {
         "text": "5",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3468,13 +3552,14 @@
       },
       {
         "text": "3",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3482,8 +3567,8 @@
     "data": [
       {
         "text": "Raise",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3492,8 +3577,8 @@
       },
       {
         "text": "5",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3502,13 +3587,14 @@
       },
       {
         "text": "20",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3516,8 +3602,8 @@
     "data": [
       {
         "text": "Down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3526,8 +3612,8 @@
       },
       {
         "text": "10",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -3536,13 +3622,14 @@
       },
       {
         "text": "9",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3550,8 +3637,8 @@
     "data": [
       {
         "text": "Up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3560,8 +3647,8 @@
       },
       {
         "text": "12.25",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3570,13 +3657,14 @@
       },
       {
         "text": "45",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3584,8 +3672,8 @@
     "data": [
       {
         "text": "Raise",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3594,8 +3682,8 @@
       },
       {
         "text": "6",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3604,13 +3692,14 @@
       },
       {
         "text": "4",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3618,8 +3707,8 @@
     "data": [
       {
         "text": "Up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3628,8 +3717,8 @@
       },
       {
         "text": "11.2",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -3638,13 +3727,14 @@
       },
       {
         "text": "9",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3652,8 +3742,8 @@
     "data": [
       {
         "text": "Down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3662,8 +3752,8 @@
       },
       {
         "text": "5.3",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -3672,13 +3762,14 @@
       },
       {
         "text": "6",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3686,8 +3777,8 @@
     "data": [
       {
         "text": "Raise",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3696,13 +3787,14 @@
       },
       {
         "text": "11.2",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3710,8 +3802,8 @@
     "data": [
       {
         "text": "Lower",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3720,8 +3812,8 @@
       },
       {
         "text": "10",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3730,13 +3822,14 @@
       },
       {
         "text": "11",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3744,8 +3837,8 @@
     "data": [
       {
         "text": "Raise",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3754,13 +3847,14 @@
       },
       {
         "text": "3",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3768,8 +3862,8 @@
     "data": [
       {
         "text": "Up",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3778,8 +3872,8 @@
       },
       {
         "text": "10",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": false
       },
       {
@@ -3788,13 +3882,14 @@
       },
       {
         "text": "64",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
@@ -3802,8 +3897,8 @@
     "data": [
       {
         "text": "Down",
-        "alias": "direction",
         "meta": "@sys.any",
+        "alias": "direction",
         "userDefined": true
       },
       {
@@ -3812,8 +3907,8 @@
       },
       {
         "text": "3",
-        "alias": "turns",
         "meta": "@sys.number",
+        "alias": "turns",
         "userDefined": true
       },
       {
@@ -3822,13 +3917,14 @@
       },
       {
         "text": "5",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   }
 ]

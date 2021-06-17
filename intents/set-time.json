@@ -6,56 +6,64 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "5f0b070c-67c0-4cc0-b471-b1fa404698a9",
+          "id": "3c124983-997a-49a9-9b9e-d66c949da60d",
+          "name": "mode",
           "required": true,
           "dataType": "@sys.any",
-          "name": "mode",
           "value": "$mode",
+          "defaultValue": "manual",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "manual",
-          "isList": false
+          "outputDialogContexts": []
         },
         {
-          "id": "ed21b87e-459b-4900-8fb4-fe50434ef3e6",
+          "id": "81c5ff00-891b-4e4c-9ab5-03c2ff1b2b99",
+          "name": "time",
           "required": false,
           "dataType": "@sys.date-time",
-          "name": "time",
           "value": "$time",
+          "defaultValue": "1970",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "-1",
-          "isList": false
+          "outputDialogContexts": []
         },
         {
-          "id": "d0a4c75b-f0d4-494b-a38e-6c31ab898f6a",
+          "id": "8376f1b4-9e81-4705-966c-d9b50916afb9",
+          "name": "intent",
           "required": false,
           "dataType": "@sys.any",
-          "name": "intent",
           "value": "set-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "isList": false
+          "outputDialogContexts": []
         }
       ],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
-          "condition": "",
-          "speech": "$mode: $time"
+          "speech": [
+            "$mode: $time"
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],

@@ -4,6 +4,7 @@
   "shortDescription": "",
   "examples": "",
   "linkToDocs": "",
+  "displayName": "Electrode-Mate",
   "disableInteractionLogs": false,
   "disableStackdriverLogs": true,
   "googleAssistant": {
@@ -31,24 +32,24 @@
   },
   "defaultTimezone": "America/New_York",
   "webhook": {
-    "url": "https://533ee1ee.ngrok.io/webhook",
+    "url": "https://815def1b7bba.ngrok.io/webhook",
     "username": "",
-    "headers": {
-      "": ""
-    },
+    "headers": {},
     "available": true,
     "useForDomains": false,
     "cloudFunctionsEnabled": false,
     "cloudFunctionsInitialized": false
   },
   "isPrivate": true,
-  "customClassifierMode": "use.after",
   "mlMinConfidence": 0.3,
   "supportedLanguages": [],
+  "enableOnePlatformApi": true,
   "onePlatformApiVersion": "v2",
+  "secondaryKey": "473e9ef684cd4eb0b5ff7ae2ea8fc131",
   "analyzeQueryTextSentiment": false,
   "enabledKnowledgeBaseNames": [],
   "knowledgeServiceConfidenceAdjustment": -0.4,
   "dialogBuilderMode": false,
-  "baseActionPackagesUrl": ""
+  "baseActionPackagesUrl": "",
+  "enableSpellCorrection": false
 }

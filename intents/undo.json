@@ -6,47 +6,51 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [
         {
           "id": "2078848a-d5e4-4770-8457-0cd780db3ed6",
+          "name": "intent",
           "required": false,
           "dataType": "@sys.any",
-          "name": "intent",
           "value": "undo",
+          "defaultValue": "undo",
+          "isList": false,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "undo",
-          "isList": false
+          "outputDialogContexts": []
         },
         {
           "id": "35a7c031-a1db-43be-9978-f1d333cec5ff",
+          "name": "entries",
           "required": false,
           "dataType": "@sys.number-sequence",
-          "name": "entries",
           "value": "$entries",
+          "defaultValue": "-1",
+          "isList": true,
+          "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "-1",
-          "isList": true
+          "outputDialogContexts": []
         }
       ],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
-          "condition": "",
           "speech": [
             "Got it, deleting entry.",
             "Got it, deleting entries \u003d [$entries]"
-          ]
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],

@@ -1,25 +1,226 @@
 [
   {
-    "id": "8c9ba2f3-82bd-4db5-8cf6-5501a8fc647d",
+    "id": "707e4b8d-6395-4a90-8908-7c5e17dafade",
     "data": [
       {
-        "text": "dead tetrode ",
+        "text": "dead on tetrode ",
         "userDefined": false
       },
       {
-        "text": "10",
-        "alias": "tetrode",
+        "text": "33",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
-        "text": " channel ",
+        "text": " channels ",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "two",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "three",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": ", and ",
+        "userDefined": false
+      },
+      {
+        "text": "four",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68a9a1c5-d3cf-4505-8bbd-b64be75ba768",
+    "data": [
+      {
+        "text": "tetrode ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "meta": "@sys.number-integer",
+        "alias": "tetrode",
+        "userDefined": false
+      },
+      {
+        "text": " channels ",
         "userDefined": false
       },
       {
         "text": "1",
-        "alias": "channel",
         "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": " are dead",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ee4ccc9-869c-4a03-9bf8-dd27a44dd6e7",
+    "data": [
+      {
+        "text": "tetrode ",
+        "userDefined": false
+      },
+      {
+        "text": "33",
+        "meta": "@sys.number-integer",
+        "alias": "tetrode",
+        "userDefined": false
+      },
+      {
+        "text": " channels ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": ", and ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": " are dead",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e724c609-3322-41f3-9985-40804256ba16",
+    "data": [
+      {
+        "text": "dead",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "296f5b46-6169-4e32-bdcb-c5e64922e49b",
+    "data": [
+      {
+        "text": "dead channels",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "52fdfecc-61c1-43fa-965c-d40fa51a3bb3",
+    "data": [
+      {
+        "text": "tetrode ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "meta": "@sys.number-integer",
+        "alias": "tetrode",
+        "userDefined": false
+      },
+      {
+        "text": " channels ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
         "userDefined": false
       },
       {
@@ -28,9 +229,9 @@
       },
       {
         "text": "2",
-        "alias": "channel",
         "meta": "@sys.number-integer",
-        "userDefined": true
+        "alias": "channel",
+        "userDefined": false
       },
       {
         "text": ",",
@@ -38,8 +239,61 @@
       },
       {
         "text": "3",
-        "alias": "channel",
         "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": " are dead",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0f62874c-1d5b-49e2-961d-06009f0ea4b5",
+    "data": [
+      {
+        "text": "tetrode ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "meta": "@sys.number-integer",
+        "alias": "tetrode",
+        "userDefined": false
+      },
+      {
+        "text": " channels ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": ",",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": ",",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
         "userDefined": false
       },
       {
@@ -48,17 +302,81 @@
       },
       {
         "text": "4",
-        "alias": "channel",
         "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": " are dead",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   },
   {
-    "id": "20cafed1-b03a-438d-bb1d-46a4b2bfd6af",
+    "id": "93f07651-a230-4ed5-af4c-a40238a66bf2",
+    "data": [
+      {
+        "text": "dead tetrode ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "meta": "@sys.number-integer",
+        "alias": "tetrode",
+        "userDefined": false
+      },
+      {
+        "text": " channel ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": ",",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": true
+      },
+      {
+        "text": ",",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      },
+      {
+        "text": ",",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "meta": "@sys.number-integer",
+        "alias": "channel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8ce44e71-7a35-4aa5-9dcf-338a10fd84d7",
     "data": [
       {
         "text": "tetrode ",
@@ -66,8 +384,8 @@
       },
       {
         "text": "5",
-        "alias": "tetrode",
         "meta": "@sys.number-integer",
+        "alias": "tetrode",
         "userDefined": false
       },
       {
@@ -76,8 +394,8 @@
       },
       {
         "text": "2",
-        "alias": "channel",
         "meta": "@sys.number-integer",
+        "alias": "channel",
         "userDefined": false
       },
       {
@@ -87,6 +405,7 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "en",
     "updated": 0
   }
 ]
