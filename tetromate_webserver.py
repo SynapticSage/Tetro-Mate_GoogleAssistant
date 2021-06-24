@@ -7,6 +7,7 @@ app = Flask(__name__,
 import arrow
 import pandas as pd
 import gspread_dataframe as gsd
+import logging
 class ExperimateLogger:
     '''
     ExperimateLogger
@@ -222,6 +223,10 @@ class ExperimateLogger:
 
         return turns_per_mm
 
+    def get_mm_per_turn(self, screw_type=None):
+
+        return 1/self.get_turns_per_mm(screw_type)
+
     def prediction(self, tetrode, depth=None, return_prediction_data=False):
         '''
         Generates a prediction indicating how many turns remaining 
@@ -250,7 +255,7 @@ class ExperimateLogger:
             # Get lower pecentile, median, and upper percentile
             areastat = self.prior_stats[area]
             # Find differences
-            diff = {type_:(areastat[type_]*(0.3175)/(0.25)-depth) 
+            diff = {type_:(areastat[type_]*self.get_mm_per_turn('aught80')/self.get_mm_per_turn()-depth) 
                     for type_ in ('lower','median','upper')}
             
             if return_prediction_data:
@@ -279,21 +284,27 @@ class ExperimateLogger:
     ## PLOT METHODS
     # -------------
     def display_depth(self, show=False, shift=1.5, property_name=["depth_mm", "turns"]):
+
         from matplotlib import pyplot as plt
+        from matplotlib import ticker
+
         if "depth_mm" in property_name:
-            shift *= 0.25 / 12
+            shift *= 0.25 / 12 # VISUAL SHIFT
+
         _, depths = self.get_current_property_table(properties=property_name)
         plt.close('all')
-        depths = -(depths.astype('float'))
         depths = depths.reset_index('tetrode').reset_index(drop=True).set_index('tetrode')
         I = depths.index
         I = pd.Index(depths.index.to_frame().iloc[:,-1]).astype('int')
+        depths = -(depths.astype('float'))
         if self.const_depth_mm is not None and 'depth_mm' in depths:
-            depths.loc[:,'depth_mm'] -= self.const_depth_mm
+            depths.loc[:,'depth_mm'] -= self.const_depth_mm # minus becase negative above
         plt.ion()
         fig, ax = plt.subplots(1, 1, figsize=(20,40))
         ax.cla()
         ax.set(xlabel='\nTetrode', ylabel = 'Depth (mm)\n')
+        ax.yaxis.set_major_locator(ticker.MultipleLocator(0.10))
+        ax.yaxis.set_minor_locator(ticker.MultipleLocator(0.05))
         ax.stem(I, depths[property_name[0]].values)
         for i in range(len(depths)):
             ax.text(I[i], depths[property_name[0]].values[i]+shift, str(I[i]))
@@ -568,7 +579,7 @@ class ExperimateLogger:
 
     # EASIER TO READ TABLE GENERATION
     # -------------------------------
-    def raw2pretty(self, from_cloud=False, subsummaries=True):
+    def raw2pretty(self, from_cloud=False, subsummaries=True, make_html=False):
         ''' 
         Converts the table into the readable format we all know and love 
         '''
@@ -720,12 +731,13 @@ class ExperimateLogger:
                                        allow_formulas=False)
         # HTML Text
         # ---------
-        #ExperimateLogger.html_summary(pretty_table_computable, filename='pretty.html')
-        #ExperimateLogger.html_summary((pretty_table_computable
-        #                               .swaplevel(0,1,axis=1)
-        #                               .drop(columns='notes')
-        #                               .swaplevel(0,1,axis=1)), 
-        #                              filename='pretty_wonotes.html')
+        if make_html:
+            ExperimateLogger.html_summary(pretty_table_computable, filename='pretty.html')
+            ExperimateLogger.html_summary((pretty_table_computable
+                                           .swaplevel(0,1,axis=1)
+                                           .drop(columns='notes')
+                                           .swaplevel(0,1,axis=1)), 
+                                          filename='pretty_wonotes.html')
 
         return pretty_table, pretty_table_computable
 
@@ -752,17 +764,23 @@ class ExperimateLogger:
         vmin = {}
         locs = {}
         for c, column in enumerate(('depth','remainingDepth')):
+            if column not in df.columns.get_level_values(1):
+                continue
             locs[column], vmax[column], vmin[column] = prepare_column(df, column)
             if c == 0:
-                overall_locs = locs[0]
+                overall_locs = locs[column]
             else:
-                overall_locs = locs[0] | locs[c]
+                #overall_locs = locs[0] | locs[c]
+                overall_locs = overall_locs | locs[column]
 
-        print('Rendering')
+        print('Rendering html sheet')
         H = (df.style
-               .bar(subset=locs['depth'], vmax=vmax['depth'])
-               .bar(subset=locs['remainingDepth'], vmax=vmax['remainingDepth']-vmin['remainingDepth'])
-               .highlight_null('grey')
+               .bar(subset=locs['depth'], vmax=vmax['depth']))
+        if 'remainingDepth' in locs:
+               H = H.bar(subset=locs['remainingDepth'], 
+                         vmax=vmax['remainingDepth']-vmin['remainingDepth'])
+
+        H = (H.highlight_null('grey')
                .set_caption('Tetrode Lowering Chart: Per day and day session (marker), each adjustment nth adjustment per tetrode. Tetrode and their properties are in the columns. The rows are the individual adjustment per session')
                .format(subset=overall_locs, formatter="{:20,.0f}")
                .render()
@@ -867,7 +885,7 @@ def webhook():
     elif intent == "marker":
         fulfillmentText = EL.entry_marker(Elogger.get_parameter(req, 'marker'))
     elif intent == "raw2pretty":
-        EL.raw2pretty()
+        EL.raw2pretty(make_html=True)
     elif intent == "pretty2raw":
         EL.pretty2raw()
     elif intent == "change-tetrode":
@@ -918,11 +936,11 @@ if __name__ == "__main__":
         url = File.read()
 
     # Use that to setup an ExperimateLogger
-    import experimate_webserver
-    EL = experimate_webserver.ExperimateLogger(credentials=credentials,
+    import tetromate_webserver
+    EL = tetromate_webserver.ExperimateLogger(credentials=credentials,
                                                title='', key='', url=url,
                                                log_pretty_table=False,
                                                screw_type='openefizz',
-                                               const_depth_mm=-0.4)
+                                               const_depth_mm=0)
     df = EL.df
     app.run()
