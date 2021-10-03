@@ -400,21 +400,25 @@ class ExperimateLogger:
 
     def entry_dead(self, tetrode, channel):
         new_row = pd.DataFrame([['dead', tetrode, "channels = " + str(channel)]], 
-                           index=self.get_datetime(mode="auto"),
+                           index=self.get_datetime(),
                            columns=['intent','tetrode','note'])
         self.df = pd.concat([self.df, new_row], axis=0)
 
     def entry_entrance(self, tetrode=None):
+        singular_list = isinstance(tetrode,(list,tuple)) and len(tetrode) == 1
+        if singular_list:
+            tetrode = tetrode[0]
         if tetrode is None or tetrode == -1:
             self.get_df_current_tetrode()
         new_row = pd.DataFrame([['entrance', tetrode]],
-                               index=self.get_datetime(mode="auto"),
+                               index=self.get_datetime(),
                                columns=['intent', 'tetrode'])
         self.df = pd.concat([self.df, new_row], axis=0)
 
     def entry_ripples(self, magnitude):
         magnitude = self.parse_magnitude(magnitude)
-        new_row = pd.DataFrame([['ripple', self.get_df_current_tetrode(), magnitude]],
+        new_row = pd.DataFrame([['ripple', self.get_df_current_tetrode(),
+                                 magnitude]],
                                index=self.get_datetime(),
                                columns=['intent','tetrode','magnitude'])
         self.df = pd.concat([self.df, new_row], axis=0)
@@ -424,7 +428,8 @@ class ExperimateLogger:
 
     def entry_theta(self, magnitude):
         magnitude = self.parse_magnitude(magnitude)
-        new_row = pd.DataFrame([['theta', self.get_df_current_tetrode(), magnitude]], 
+        new_row = pd.DataFrame([['theta', self.get_df_current_tetrode(),
+                                 magnitude]],
                                index=self.get_datetime(),
                                columns=['intent','tetrode','magnitude'])
         if self.continuous_explode:
@@ -434,7 +439,8 @@ class ExperimateLogger:
 
     def entry_delta(self, magnitude):
         magnitude = self.parse_magnitude(magnitude)
-        new_row = pd.DataFrame([['delta', self.get_df_current_tetrode(), magnitude]], 
+        new_row = pd.DataFrame([['delta', self.get_df_current_tetrode(),
+                                 magnitude]],
                                index=self.get_datetime(),
                                columns=['intent','tetrode','magnitude'])
         if self.continuous_explode:
@@ -444,7 +450,8 @@ class ExperimateLogger:
 
     def entry_cells(self, magnitude):
         magnitude = self.parse_magnitude(magnitude)
-        new_row = pd.DataFrame([['cells', self.get_df_current_tetrode(), magnitude]], 
+        new_row = pd.DataFrame([['cells', self.get_df_current_tetrode(),
+                                 magnitude]],
                                index=self.get_datetime(),
                                columns=['intent','tetrode','magnitude'])
         if self.continuous_explode:
