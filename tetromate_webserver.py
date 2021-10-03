@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, render_template, Markup
+
 app = Flask(__name__,
             static_folder='static',
             template_folder='templates')
@@ -8,6 +9,7 @@ import arrow
 import pandas as pd
 import gspread_dataframe as gsd
 import logging
+
 class ExperimateLogger:
     '''
     ExperimateLogger
@@ -17,15 +19,18 @@ class ExperimateLogger:
     webhook data from google and logs them to an internal pandas spreadsheet. It
     then logs that spreadsheet to the cloud.
     '''
-    
     ## CONSTRUCTOR
-    def __init__(self, credentials, key="", url="", title="", continuous_explode=False,
-                 log_pretty_table=False, continuous_cloud_update=False, screw_type="openefizz",
+    def __init__(self, credentials, key="", url="", title="",
+                 continuous_explode=False, log_pretty_table=False,
+                 continuous_cloud_update=False, screw_type="openefizz",
                  const_depth_mm=None):
+
         import gspread
 
-        self.continuous_cloud_update = continuous_cloud_update # Whether to continuously reload changes from the cloud
-        self.continuous_explode = continuous_explode # Whether to explode tetrode lists in the raw data as we go
+        # Whether to continuously reload changes from the cloud
+        self.continuous_cloud_update = continuous_cloud_update
+        # Whether to explode tetrode lists in the raw data as we go
+        self.continuous_explode = continuous_explode
 
         # Find google sheet
         self.google_console = gspread.authorize(credentials)
@@ -37,22 +42,26 @@ class ExperimateLogger:
             self.spreadsheet = self.google_console.open_by_key(key)
         else:
             raise NameError("Must provide key, url, or title of googlespreadsheet")
-        
         # Open basic worksheets
         if self.exist_worksheet("Raw"):
             self.raw_worksheet = self.spreadsheet.worksheet("Raw")
         else:
-            self.raw_worksheet = self.spreadsheet.add_worksheet("Raw", rows=1, cols=1)
+            self.raw_worksheet = self.spreadsheet.add_worksheet("Raw",
+                                                                rows=1,
+                                                                cols=1)
         if self.exist_worksheet("Summary"):
             self.pretty_worksheet = self.spreadsheet.worksheet("Summary")
         else:
-            self.pretty_worksheet = self.spreadsheet.add_worksheet("Summary", rows=1, cols=1)
+            self.pretty_worksheet = self.spreadsheet.add_worksheet("Summary",
+                                                                   rows=1,
+                                                                   cols=1)
 
         self.screw_type = screw_type;
         self.const_depth_mm = const_depth_mm
 
         # Load Internal data
-        self.df = gsd.get_as_dataframe(self.raw_worksheet, include_index=True, parse_dates=True, userows=[0,1])
+        self.df = gsd.get_as_dataframe(self.raw_worksheet, include_index=True,
+                                       parse_dates=True, userows=[0,1])
         self.set_types()
         #if "datetime" in self.df.columns:
         #    I = pd.to_datetime(self.df.datetime, utc=True)
@@ -63,7 +72,7 @@ class ExperimateLogger:
 
         # If all nans, then we need to initialize
         if self.df.isna().all().all():
-            self.df = pd.DataFrame([], 
+            self.df = pd.DataFrame([],
                                    columns=['intent','tetrode','turns','magnitude','note','exception'],
                                    index=pd.DatetimeIndex([], name='datetime'))
             gsd.set_with_dataframe(self.raw_worksheet,
@@ -128,7 +137,7 @@ class ExperimateLogger:
         current_tetrode = adjustDF.iloc[-1].tetrode
         return current_tetrode
 
-    def get_datetime(self, mode=None):				
+    def get_datetime(self, mode=None):
         ''' Return an index indicating the datetime '''
         if mode is None:
             mode = self.time['mode']
@@ -160,7 +169,7 @@ class ExperimateLogger:
         self.tetrode_properties = \
             gsd.get_as_dataframe(self.spreadsheet.worksheet('Mapping'))
         (self.tetrode_properties
-              .drop(columns=[x for x in self.tetrode_properties.columns 
+              .drop(columns=[x for x in self.tetrode_properties.columns
                              if 'Unnamed' in x], 
                     inplace=True)
          )
@@ -196,7 +205,7 @@ class ExperimateLogger:
         if not isinstance(tetrode, list) and int(tetrode) == -1:
             tetrode = self.get_df_current_tetrode()
 
-        turns_per_mm = self.get_turns_per_mm() 
+        turns_per_mm = self.get_turns_per_mm()
         depth = self.df[ self.df.tetrode == tetrode ].turns.fillna(0).cumsum().iloc[-1]
         markers_per_revolution = 12
         mmdepth = float(depth)/(markers_per_revolution * turns_per_mm)
@@ -257,7 +266,7 @@ class ExperimateLogger:
             # Find differences
             diff = {type_:(areastat[type_]*self.get_mm_per_turn('aught80')/self.get_mm_per_turn()-depth) 
                     for type_ in ('lower','median','upper')}
-            
+
             if return_prediction_data:
                 ret_value = diff
             else:
@@ -280,7 +289,7 @@ class ExperimateLogger:
         current_depths_df = current_depths_df.merge(self.tetrode_properties, on="tetrode")
         current_depths_df.set_index(list(self.tetrode_properties.columns), append=True, inplace=True)
         return current_depths, current_depths_df
-    
+
     ## PLOT METHODS
     # -------------
     def display_depth(self, show=False, shift=1.5, property_name=["depth_mm", "turns"]):
@@ -323,14 +332,15 @@ class ExperimateLogger:
     def update_table(self):
         '''
         Updates table to current state
-        
+        -----
         Notes
         -----
         If you're playing around with this, be sure to backup() before!
         '''
-        gsd.set_with_dataframe(self.raw_worksheet, self.df, 
+        gsd.set_with_dataframe(self.raw_worksheet,
+                               self.df,
                                include_index=True,
-                               resize=True, 
+                               resize=True,
                                allow_formulas=False)
 
     ## ENTRY METHODS
@@ -359,13 +369,15 @@ class ExperimateLogger:
             fulfillmentText = f"{self.time['mode']}"
 
         if add_to_df:
-            new_row = pd.DataFrame([['set-time', self.time['mode'], self.time['time']]], 
-                               index=self.get_datetime(mode="auto"),
-                               columns=['intent','mode','parameter'])
+            new_row = pd.DataFrame([['set-time', self.time['mode'],
+                                     self.time['time']]],
+                                   index=self.get_datetime(mode="auto"),
+                                   columns=['intent', 'mode', 'parameter'])
             self.df = pd.concat([self.df, new_row], axis=0)
         else:
             print(fulfillmentText)
         return fulfillmentText
+
     def entry_set_area(self, area, tetrode):
         if hasattr(area, '__iter__') and len(area) == 1:
             area = area[0]
@@ -385,14 +397,24 @@ class ExperimateLogger:
         if self.continuous_explode:
             new_row.explode('tetrode') # If a list of tetrodes given, explode the dataframe to proper entries
         self.df = pd.concat([self.df, new_row], axis=0)
+
     def entry_dead(self, tetrode, channel):
         new_row = pd.DataFrame([['dead', tetrode, "channels = " + str(channel)]], 
                            index=self.get_datetime(mode="auto"),
                            columns=['intent','tetrode','note'])
         self.df = pd.concat([self.df, new_row], axis=0)
+
+    def entry_entrance(self, tetrode=None):
+        if tetrode is None or tetrode == -1:
+            self.get_df_current_tetrode()
+        new_row = pd.DataFrame([['entrance', tetrode]],
+                               index=self.get_datetime(mode="auto"),
+                               columns=['intent', 'tetrode'])
+        self.df = pd.concat([self.df, new_row], axis=0)
+
     def entry_ripples(self, magnitude):
         magnitude = self.parse_magnitude(magnitude)
-        new_row = pd.DataFrame([['ripple', self.get_df_current_tetrode(), magnitude]], 
+        new_row = pd.DataFrame([['ripple', self.get_df_current_tetrode(), magnitude]],
                                index=self.get_datetime(),
                                columns=['intent','tetrode','magnitude'])
         self.df = pd.concat([self.df, new_row], axis=0)
@@ -898,8 +920,10 @@ def webhook():
         fulfillmentText = EL.entry_set_time(*Elogger.get_parameters(req, ['mode', 'time']))
     elif intent == "dead":
         fulfillmentText = EL.entry_dead(*Elogger.get_parameters(req, ['tetrode', 'channel']))
+    elif intent == "entrance":
+        fulfillmentText = EL.entry_entrance(*Elogger.get_parameters(req, ['tetrode']))
     else:
-        intent_recognized = False
+        #intent_recognized = False
         fulfillmentText = "Intent not recognized!"
 
     # Upload new table
@@ -919,8 +943,6 @@ def showdepth():
     EL.display_depth()
     message = app.send_static_file('depths.svg')
     return message
-                                                                               
-                                                                               
 #  _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ 
 # |_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|
 #                                                                                
@@ -931,16 +953,21 @@ if __name__ == "__main__":
     path = '/home/ryoung/GoogleAPI/myproj.json'
     scope = ['https://www.googleapis.com/auth/spreadsheets']
     credentials = ServiceAccountCredentials.from_json_keyfile_name(path, scope)
-    url_configuration_file = 'RY20.conf' # File with url to the google sheet of interest
+
+    # File with url to the google sheet of interest
+    url_configuration_file = 'RY22.conf'
     with open(url_configuration_file, 'r') as File:
         url = File.read()
 
     # Use that to setup an ExperimateLogger
     import tetromate_webserver
     EL = tetromate_webserver.ExperimateLogger(credentials=credentials,
-                                               title='', key='', url=url,
+                                               title='', 
+                                               key='', 
+                                               url=url,
                                                log_pretty_table=False,
                                                screw_type='openefizz',
                                                const_depth_mm=0)
+    EL.continuous_explode = True
     df = EL.df
     app.run()
