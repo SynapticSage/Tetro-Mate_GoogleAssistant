@@ -1,11 +1,12 @@
-
-def compute_turns_to_distance(EL:object, areas:list, desired_distance:float):
+# Module contains depth related calculations
+def compute_turns_to_distance(EL:object, areas:list, desired_distance:float, minus_entrance:bool=True) -> dict:
     '''
     Takes a tetromate object and list of areas and a desired distance, and then
     computes how many turns in multiple different units of turns to reach the
     desired distance. Returns pandas dataframes instructing the user how many
     turns per electrode bundle.
     '''
+
 
     area_query = [f"area == '{area}'" for area in areas]
     area_query = " or ".join(area_query)
@@ -37,3 +38,4 @@ def compute_tetrode_distance_difference(tet1, tet2, DF=None, prop='depth_mm'):
     note2 = note2[note2 != ''].astype('float').iloc[-1]
 
     return (note2 - note1)
+

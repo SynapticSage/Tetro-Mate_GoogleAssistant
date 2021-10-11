@@ -1,8 +1,6 @@
 from flask import Flask, request, jsonify, render_template, Markup
 
-app = Flask(__name__,
-            static_folder='static',
-            template_folder='templates')
+app = Flask(__name__, static_folder='static', template_folder='templates')
 
 # Connecting pandas to google cloud
 import arrow
@@ -14,18 +12,22 @@ class ExperimateLogger:
     '''
     ExperimateLogger
 
-    Handles all of the logging functionality of listening for Google Assistant commands
-    and logging the tetrode lowering data to the the cloud (Google Sheets). Receives
-    webhook data from google and logs them to an internal pandas spreadsheet. It
-    then logs that spreadsheet to the cloud.
+    Handles all of the logging functionality of listening for Google Assistant
+    commands and logging the tetrode lowering data to the the cloud (Google
+    Sheets). Receives webhook data from google and logs them to an internal
+    pandas spreadsheet. It then logs that spreadsheet to the cloud.
+
     '''
     ## CONSTRUCTOR
     def __init__(self, credentials, key="", url="", title="",
-                 continuous_explode=False, log_pretty_table=False,
-                 continuous_cloud_update=False, screw_type="openefizz",
+                 continuous_explode=False,
+                 log_pretty_table=False,
+                 continuous_cloud_update=False,
+                 screw_type="openefizz",
                  const_depth_mm=None):
 
         import gspread
+        from dataframe.clean import clean_raw
 
         # Whether to continuously reload changes from the cloud
         self.continuous_cloud_update = continuous_cloud_update
@@ -62,13 +64,7 @@ class ExperimateLogger:
         # Load Internal data
         self.df = gsd.get_as_dataframe(self.raw_worksheet, include_index=True,
                                        parse_dates=True, userows=[0,1])
-        self.set_types()
-        #if "datetime" in self.df.columns:
-        #    I = pd.to_datetime(self.df.datetime, utc=True)
-        #    I = I.dt.tz_convert('EST')
-        #    I = pd.DatetimeIndex(I)
-        #    I.name = 'datetime'
-        #    self.df = self.df.drop(columns='datetime').set_index(I)
+        self.df = clean_raw(self.df, continuous_explode=self.continuous_explode)
 
         # If all nans, then we need to initialize
         if self.df.isna().all().all():
@@ -493,7 +489,6 @@ class ExperimateLogger:
                 pstring = self.prediction(tetrode)
             else:
                 pstring = ''
-        
             return f' ({depth:2.1f}, {depthmm:2.1f}) {pstring} ✓'
         else:
             tetrode = [str(tet) for tet in tetrode]
@@ -526,107 +521,33 @@ class ExperimateLogger:
         self.df = pd.concat([self.df, new_row], axis=0)
         return "marker = {} ✓".format(marker)
 
-    # TYPE - CHECKING
-    # ---------------
-    def set_types(self, df=None, continuous_explode=None):
-        '''
-        Set types of our tracker dataframe that keeps tabs on all
-        commands the user submits
-
-        If df is provided, this works like a static function!
-        '''
-        import numpy as np
-        import pytz
-        if df is None:
-            df = self.df
-            modify_self = True # Modify the self obj or return at end?
-        else:
-            modify_self = False
-
-        def klugey_datetime_correction(self):
-            df = self.df
-            try:
-                I = df.index
-                if not isinstance(I, pd.DatetimeIndex):
-                    I = pd.DatetimeIndex(I)
-                I = I.dt.tz_convert(pytz.timezone('US/Eastern'))
-                I = pd.DatetimeIndex(I)
-                I.name = 'datetime'
-                df = df.set_index(I)
-            except Exception as E:
-                try:
-                    I = df.index
-                    if not isinstance(I, pd.DatetimeIndex, utc=True):
-                        I = pd.DatetimeIndex(I)
-                    #I = I.dt.tz_convert('EST')
-                    I = I.tz_convert('EST')
-                    I = pd.DatetimeIndex(I)
-                    I.name = 'datetime'
-                    df = df.set_index(I)
-                except Exception as E:
-                    I = df.index
-                    if not isinstance(I, pd.DatetimeIndex) and not isinstance(I.values[0], pd._libs.tslib.Timestamp):
-                        I = pd.DatetimeIndex(I)
-                    I.name = 'datetime'
-                    df = df.set_index(I)
-
-        # Make index pd.Datetime!
-        if "datetime" in df.columns:
-            I = pd.to_datetime(df.datetime, utc=True)
-            I = I.dt.tz_convert(pytz.timezone('US/Eastern'))
-            #I = pd.DatetimeIndex(I, tz=pytz.timezone('US/Eastern'))
-            I.name = 'datetime'
-            df = df.drop(columns='datetime').set_index(I)
-        else:
-            if df.index.name != "datetime":
-                print("Index not datetime")
-                klugey_datetime_correction(self)
-            if not hasattr(df.index, 'day'):
-                print("Index does not have day!")
-                klugey_datetime_correction(self)
-
-        # Determine tetrode type based on user settings
-        if continuous_explode is None:
-            continous_explode = self.continuous_explode
-        if continuous_explode:
-            tetrode_type = np.double
-        else:
-            tetrode_type = np.object
-
-        # Retype
-        df = df.astype({x:y for x,y in 
-                                  {'tetrode':tetrode_type, 'turns':np.double, 'magnitude':np.double,
-                               'adjustment':np.double, 'depth':np.double}.items()
-                              if x in df.columns})
-
-        if modify_self:
-            self.df = df
-        else:
-            if df is None:
-                raise ValueError("Uh oh something happened")
-            return df
 
     # EASIER TO READ TABLE GENERATION
     # -------------------------------
     def raw2pretty(self, from_cloud=False, subsummaries=True, make_html=False):
-        ''' 
-        Converts the table into the readable format we all know and love 
+        '''
+        Converts the table into the readable format that we're used to
         '''
         import numpy as np
+        from dataframe.clean import set_types
 
         # Determine data matrix
         if from_cloud:
             pass
         else:
-            rawdf = self.df
+            rawdf = self.df.copy()
         if rawdf.index.name != 'datetime':
             rawdf.set_index('datetime', inplace=True)
         # Explode any lists
         rawdf = rawdf.explode('tetrode')
         # Set types
-        rawdf = self.set_types(rawdf, continuous_explode=False)
+        rawdf = set_types(rawdf, continuous_explode=self.continuous_explode)
 
-        # Preamble
+        # Get utc version
+        if not isinstance(rawdf.index, pd.DatetimeIndex):
+            rawdf.index = pd.DatetimeIndex([val.utcnow() for val in rawdf.index.values])
+
+        # Acquire days
         # --------
         grouping_name = 'day'
         grouping         = rawdf.index.day
@@ -656,9 +577,11 @@ class ExperimateLogger:
             notes_portion = notes_portion.dropna(how='any')
             notes = notes_portion.intent + "_" +  notes_portion.type + "=>" + notes_portion.value.astype('str')
             notes = "\n".join(notes.values.tolist())
-            adjust_tetrode_portion.loc[:,'notes'] = notes
+            if not adjust_tetrode_portion.empty:
+                adjust_tetrode_portion.loc[:,'notes'] = notes
             adjust_tetrode_portion.drop(columns='note',inplace=True)
             return adjust_tetrode_portion
+
         # Collapse notes by adjustment
         tetrodeAdjustments = (rawdf
                               .groupby('adjustment')
@@ -720,7 +643,7 @@ class ExperimateLogger:
             ordinals = pd.DataFrame(data.groupby('tetrode').apply(count_ordinal))
             ordinals.set_index(data.index, inplace=True)
             data['adjustment'] = ordinals
-            
+
             #data = data.reset_index().set_index(['day','marker','ordinal'])
             # C. PIVOT
             pivot_values = ['turns','depth', 'depth_old', 'depth_mm', 'notes']
@@ -742,11 +665,11 @@ class ExperimateLogger:
         pretty_table = pretty_table.fillna('')
         self.df_pretty = pretty_table
         gsd.set_with_dataframe(self.pretty_worksheet,
-                                  pretty_table.reset_index(), 
+                                  pretty_table.reset_index(),
                                   include_index=False,
                                   include_column_header=True,
                                   allow_formulas=False)
-        
+
         # Display short summaries)
         # ------------------------
         if subsummaries:
@@ -754,7 +677,7 @@ class ExperimateLogger:
                 worksheet = f"Summary_{obj}"
                 self.validate_worksheet(worksheet)
                 gsd.set_with_dataframe(self.spreadsheet.worksheet(worksheet),
-                                       pretty_table.swaplevel(0,1, axis=1)[obj].reset_index(), 
+                                       pretty_table.swaplevel(0,1, axis=1)[obj].reset_index(),
                                        include_index=False,
                                        include_column_header=True,
                                        allow_formulas=False)
@@ -888,7 +811,6 @@ def webhook():
     fulfillmentText = req.get('queryResult').get('fulfillmentText')
 
     ## ADD TO TABLE
-    intent_recognized = True
     if intent == "adjust-tetrode":
         # Acquire endogenous fulfillment text and return
         fulfillmentAddon = EL.entry_adjust_tetrode(
@@ -953,6 +875,8 @@ def showdepth():
 #  _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ 
 # |_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|
 #                                                                                
+
+
 if __name__ == "__main__":
 
     # Access my Google Spreadsheet Credentials
@@ -969,12 +893,12 @@ if __name__ == "__main__":
     # Use that to setup an ExperimateLogger
     import tetromate_webserver
     EL = tetromate_webserver.ExperimateLogger(credentials=credentials,
-                                               title='', 
-                                               key='', 
-                                               url=url,
-                                               log_pretty_table=False,
-                                               screw_type='openefizz',
-                                               const_depth_mm=0)
-    EL.continuous_explode = True
+                                              title='',
+                                              key='',
+                                              url=url,
+                                              log_pretty_table=False,
+                                              screw_type='openefizz',
+                                              continuous_explode=True,
+                                              const_depth_mm=0)
     df = EL.df
     app.run()
