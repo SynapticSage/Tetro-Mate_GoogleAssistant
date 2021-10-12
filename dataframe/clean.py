@@ -1,5 +1,18 @@
 import pandas as pd
 
+def clean_output(df:pd.DataFrame):
+    '''
+    Cleans df before outputting to a google sheet
+    '''
+    df = df.astype({'tetrode':str, 'turns':str, 'magnitude':str})
+    columns = [col for col in df.columns if "Unnamed" not in col]
+    df = df[columns].applymap(lambda x: x if x != 'nan' else '')
+    if 'index' in df:
+        df.drop(columns='index', inplace=True)
+    #df.index = df.index.astype('str')
+    return df
+
+
 def clean_raw(df, *pos, **kws):
     '''
 

@@ -166,17 +166,17 @@ class ExperimateLogger:
             gsd.get_as_dataframe(self.spreadsheet.worksheet('Mapping'))
         (self.tetrode_properties
               .drop(columns=[x for x in self.tetrode_properties.columns
-                             if 'Unnamed' in x], 
+                             if 'Unnamed' in x],
                     inplace=True)
          )
         self.tetrode_properties.dropna(how='all', axis=1, inplace=True)
         self.tetrode_properties.dropna(how='any', axis=0, inplace=True)
         self.tetrode_properties.rename({x:str(x).lower().replace(' #', '') for x in
-                                        self.tetrode_properties.columns}, 
+                                        self.tetrode_properties.columns},
                     inplace=True, axis=1)
         self.tetrode_properties.set_index('tetrode')
 
-    def fetch_prior_stats(self, areas=['PFC','CA1']):
+    def fetch_prior_stats(self, areas=['PFC', 'CA1']):
         ''' Fetch prior statistics about lowering '''
         import gspread
         self.validate_worksheet('Prediction')
@@ -277,6 +277,7 @@ class ExperimateLogger:
         _, pretty_table = self.raw2pretty()
 
         current_depths = pretty_table.swaplevel(0,1,axis=1)[properties].ffill().iloc[-1]
+        current_depths.name = 'CurrentDepths'
         current_depths_df = pd.DataFrame(current_depths)
         if len(current_depths_df.index.names) > 1:
              current_depths_df = current_depths_df.swaplevel(0,1).unstack()
@@ -857,7 +858,9 @@ def webhook():
 
     # Upload new table
     # ----------------
-    gsd.set_with_dataframe(EL.raw_worksheet, EL.df, include_index=True, resize=True, allow_formulas=False)
+    from dataframe.clean import clean_output
+    gsd.set_with_dataframe(EL.raw_worksheet, clean_output(EL.df), include_index=True,
+                           resize=True, allow_formulas=False)
 
     return jsonify({"fulfillmentText":fulfillmentText})
 

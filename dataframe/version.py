@@ -33,6 +33,6 @@ def upgrade_to_tetrode_labeled_entrance(df:pd.DataFrame,
 
     # Extract entries related to entrances
     chunk = df_fillforward[df_fillforward.intent == "entrance"]
-    df.loc[chunk.index,'tetrode'] = chunk.tetrode
+    df.loc[chunk.index, 'tetrode'] = chunk.tetrode
 
     return df
