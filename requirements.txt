@@ -1,0 +1,9 @@
+arrow
+Flask
+gspread
+gspread-dataframe
+matplotlib
+numpy
+oauth2client
+pandas
+pytz
